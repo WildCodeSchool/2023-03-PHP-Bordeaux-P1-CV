@@ -11,7 +11,7 @@
         <header></header>
         <img src="/ASSETS/IMAGES/pinkPanther.png">
         <main></main>
-        <nav></nav>
+        <nav>Itaan</nav>
         <footer></footer>
     </body>
 </html>
