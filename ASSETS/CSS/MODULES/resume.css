@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: auto 0;
+    height: 100%;
+}
+
+.bodyGridContainer {
+    display: grid;
+    grid:
+        "header"              10vh
+        "biography"           auto
+        "softSkillsFormation" auto
+        "experience"          auto
+        "contactPlan"         auto
+        "footer"              10vh
+        /1fr;
+    height: 100vh;
+}
+
+
+header {
+    grid-area: header;
+    background-color: brown;
+}
+
+#biography {
+    grid-area: biography;
+    background-color: green;
+}
+
+#softSkillsFormation {
+    grid-area: softSkillsFormation;
+    background-color: blueviolet;
+    display: grid;
+    grid: 
+        "softSkills formation" auto
+        /1fr 1fr;
+}
+
+#softSkills {
+    grid-area: softSkills;
+    background-color: aqua;
+}
+
+#formation {
+    grid-area: formation;
+    background-color: rgb(160, 73, 175);
+}
+
+#experience {
+    grid-area: experience;
+    background-color: bisque;
+}
+
+#contactPlan {
+    grid-area: contactPlan;
+    background-color: grey;
+    display: grid;
+    grid: 
+        "contact plan" auto
+        /1fr 1fr;
+}
+
+#contact {
+    grid-area: contact;
+    background-color: azure;
+}
+#plan {
+    grid-area: plan;
+    background-color: yellow;
+}
+
+footer {
+    grid-area: footer;
+    background-color: red;
+}
