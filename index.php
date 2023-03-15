@@ -12,6 +12,6 @@
         <img src="/ASSETS/IMAGES/pinkPanther.png">
         <main></main>
         <nav></nav>
-        <footer></footer>
+        <footer>Eric</footer>
     </body>
 </html>
