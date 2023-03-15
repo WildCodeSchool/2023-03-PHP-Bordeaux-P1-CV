@@ -74,3 +74,25 @@ footer {
     grid-area: footer;
     background-color: red;
 }
+
+@media screen and (max-width: 480px) {
+    #softSkillsFormation {
+        grid-area: softSkillsFormation;
+        background-color: blueviolet;
+        display: grid;
+        grid: 
+            "softSkills" auto
+            "formation"  auto
+            /1fr;
+    }
+
+    #contactPlan {
+        grid-area: contactPlan;
+        background-color: grey;
+        display: grid;
+        grid: 
+            "contact" auto
+            "plan"    auto
+            /1fr;
+    }
+}
