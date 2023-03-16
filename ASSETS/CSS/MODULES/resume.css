@@ -1,5 +1,9 @@
 * {
     box-sizing: border-box;
+
+}
+
+body {
     margin: auto 0;
     height: 100%;
 }
@@ -20,6 +24,19 @@
 
 header {
     grid-area: header;
+}
+p, h2, h3{
+    font-family: Josefin_Sans, Helvetica, sans-serif;
+    color: var(--quinary);
+}
+
+section {
+    background-color: var(--secondary-color);
+}
+
+@font-face {
+    font-family: Josefin_Sans;
+    src: url(/ASSETS/FONTS/fontsForTexts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
 }
 
 #biography {
