@@ -1,3 +1,43 @@
-body {
+.gridContainer {
+    display: grid;
+    grid:
+        "title title    title" 20%
+        "exp1  timeline ."     20%
+        ".     timeline exp2"  20%
+        "exp3  timeline ."     20%
+        ".     timeline exp4"  20%
+        / 100fr  1fr      100fr;
+    height: 100%;
+    background-color: grey;
+}
+
+#title {
+    grid-area: title;
+    background-color: blue;
+}
+
+#timeline {
+    grid-area: timeline;
+    background-color: black;
+    color: white;
+}
+
+#exp1 {
+    grid-area: exp1;
     background-color: red;
+}
+
+#exp2 {
+    grid-area: exp2;
+    background-color: yellow;
+}
+
+#exp3 {
+    grid-area: exp3;
+    background-color: green;
+}
+
+#exp4 {
+    grid-area: exp4;
+    background-color: orange;
 }
