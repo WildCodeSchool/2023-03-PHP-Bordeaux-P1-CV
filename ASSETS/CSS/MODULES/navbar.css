@@ -10,11 +10,11 @@ body {
 
 @media screen and (max-width: 768px) {
     .topNav {
-        background-color: rgb(201,60,101);
+        background-color: var(--primary-color);
         padding: 10px;
     }
     .topNav a {
-        color: rgb(255, 255, 255);
+        color: var(--quinary);
         text-decoration: none;
         font-size: 35px;
     }
@@ -38,11 +38,11 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .topNav {
-        background-color: rgb(201,60,101);
+        background-color: var(--primary-color);
         padding: 15px;
     }
     .topNav a {
-        color: rgb(255, 255, 255);
+        color: var(--quinary);
         text-decoration: none;
         font-size: 35px;
     }
@@ -68,7 +68,7 @@ body {
         display: none;
     }
     .topNav {
-        background-color: rgb(201,60,101);
+        background-color: var(--primary-color);
         display: flex;
         justify-content: center;
         font-size: 40px;
@@ -76,7 +76,7 @@ body {
     }
 
     .topNav a {
-        color: rgb(255, 255, 255);
+        color: var(--quinary);
         padding: 28px 60px;
         text-decoration: none;
         font-size: 25px;
@@ -85,13 +85,13 @@ body {
     }
 
     .topNav a:hover {
-        background-color: rgb(232,170,189);
-        color: rgb(201,60,101);
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
     }
 
     .topNav a.active {
-        background-color: rgb(232,170,189);
-        color: rgb(201,60,101);
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
     }
 
     .topNav .icon {
