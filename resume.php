@@ -18,7 +18,7 @@
         <section id="contactPlan">
             <div id="contact">contact</div>
             <div id="plan">plan</div></section>
-        <footer>footer</footer>
+        <footer><?php include "_INCLUDES/footer.php"?></footer>
         
         <script>
 		const x = document.querySelector("#myTopnav");
