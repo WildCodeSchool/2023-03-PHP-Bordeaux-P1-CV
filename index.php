@@ -11,7 +11,7 @@
         <header></header>
 
         <main></main>
-        <nav></nav>
+        <nav>Itaan</nav>
         <footer></footer>
     </body>
 </html>
