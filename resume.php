@@ -16,8 +16,8 @@
         </section>
         <section id="experience">exp</section>
         <section id="contactPlan">
-            <div id="contact">contact</div>
-            <div id="plan">plan</div></section>
+            <div id="contact"><?php include "_INCLUDES/contact.php"?></div>
+            <div id="plan"><?php include "_INCLUDES/map.php"?></div></section>
         <footer><?php include "_INCLUDES/footer.php"?></footer>
         
         <script>
