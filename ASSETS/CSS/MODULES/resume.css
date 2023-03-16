@@ -6,6 +6,8 @@
 body {
     margin: auto 0;
     height: 100%;
+    background-color: var(--primary-color);
+    color: var(--quinary);
 }
 
 .bodyGridContainer {
@@ -25,13 +27,14 @@ body {
 header {
     grid-area: header;
 }
-p, h2, h3{
+
+section, footer {
     font-family: Josefin_Sans, Helvetica, sans-serif;
-    color: var(--quinary);
 }
 
-section {
+#biography, #softSkills, #formation, #experience, #contactPlan  {
     background-color: var(--secondary-color);
+    margin: 10px;
 }
 
 @font-face {
@@ -90,6 +93,7 @@ footer {
             "softSkills" auto
             "formation"  auto
             /1fr;
+        ;
     }
 
     #contactPlan {
