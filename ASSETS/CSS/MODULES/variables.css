@@ -1,8 +1,8 @@
-
 /*variable declaration*/
 :root{
     --primary-color: rgb(201, 60, 102);
     --secondary-color: rgb(232, 170, 189);
     --tertiary-color: rgb(74, 163, 162);
     --quaternary-color:rgb(167, 223, 224);
+    --quinary:rgb(255, 255, 255);
 }

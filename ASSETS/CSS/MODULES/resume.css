@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: auto 0;
+    height: 100%;
+}
+
+.bodyGridContainer {
+    display: grid;
+    grid:
+        "header"              10vh
+        "biography"           auto
+        "softSkillsFormation" auto
+        "experience"          auto
+        "contactPlan"         auto
+        "footer"              10vh
+        /1fr;
+    height: 100vh;
+}
+
+
+header {
+    grid-area: header;
+}
+
+#biography {
+    grid-area: biography;
+}
+
+#softSkillsFormation {
+    grid-area: softSkillsFormation;
+    display: grid;
+    grid: 
+        "softSkills formation" auto
+        /1fr 1fr;
+}
+
+#softSkills {
+    grid-area: softSkills;
+}
+
+#formation {
+    grid-area: formation;
+}
+
+#experience {
+    grid-area: experience;
+}
+
+#contactPlan {
+    grid-area: contactPlan;
+    display: grid;
+    grid: 
+        "contact plan" auto
+        /1fr 1fr;
+}
+
+#contact {
+    grid-area: contact;
+}
+#plan {
+    grid-area: plan;
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media screen and (max-width: 480px) {
+    #softSkillsFormation {
+        grid-area: softSkillsFormation;
+        display: grid;
+        grid: 
+            "softSkills" auto
+            "formation"  auto
+            /1fr;
+    }
+
+    #contactPlan {
+        grid-area: contactPlan;
+        display: grid;
+        grid: 
+            "contact" auto
+            "plan"    auto
+            /1fr;
+    }
+}
