@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-
 }
 
 body {
@@ -13,7 +12,7 @@ body {
 .bodyGridContainer {
     display: grid;
     grid:
-        "header"              10vh
+        "header"              8vh
         "biography"           auto
         "softSkillsFormation" auto
         "experience"          auto
@@ -22,7 +21,6 @@ body {
         /1fr;
     height: 100vh;
 }
-
 
 header {
     grid-area: header;
