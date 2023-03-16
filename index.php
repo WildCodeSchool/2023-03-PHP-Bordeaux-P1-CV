@@ -9,9 +9,9 @@
     </head>
     <body class="gridContainer">
         <header></header>
-        <img src="/ASSETS/IMAGES/pinkPanther.png">
+
         <main></main>
         <nav></nav>
-        <footer>Eric</footer>
+        <footer></footer>
     </body>
 </html>

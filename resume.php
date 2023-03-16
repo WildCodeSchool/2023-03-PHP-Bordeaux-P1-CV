@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,7 +9,7 @@
         <title>Résumé</title>
     </head>
     <body class="bodyGridContainer">
-        <header>heeey</header>
+        <header><?php include "_Includes/navbar.php"?></header>
         <section id="biography">bio</section>
         <section id="softSkillsFormation">
             <div id="softSkills">softSkills</div>
@@ -19,5 +20,17 @@
             <div id="contact">contact</div>
             <div id="plan">plan</div></section>
         <footer>footer</footer>
+        
+        <script>
+          function myFunction() {
+            const x = document.getElementById("myTopnav");
+            if (x.className === "topNav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topNav";
+            }
+          }
+        </script>
+        <script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
     </body>
 </html>
