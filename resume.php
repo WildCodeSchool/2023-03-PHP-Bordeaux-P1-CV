@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,11 +8,11 @@
         <title>Résumé</title>
     </head>
     <body class="bodyGridContainer">
-        <header><?php include "_Includes/navbar.php"?></header>
+        <header><?php include "_INCLUDES/navbar.php"?></header>
         <section id="biography">bio</section>
         <section id="softSkillsFormation">
             <div id="softSkills">softSkills</div>
-            <div id="formation">formation</div>
+            <div id="formations">formations</div>
         </section>
         <section id="experience">exp</section>
         <section id="contactPlan">
@@ -22,14 +21,19 @@
         <footer>footer</footer>
         
         <script>
-          function myFunction() {
-            const x = document.getElementById("myTopnav");
-            if (x.className === "topNav") {
-              x.className += " responsive";
-            } else {
-              x.className = "topNav";
-            }
-          }
+		const x = document.querySelector("#myTopnav");
+		let check = true;
+		  function myFunction() {
+			  console.log(check)
+			  if (check == true) {
+				  check = false;
+				  x.style.height = "auto";
+
+			  } else {
+				  x.style.height = "7vh";
+				  check = true;
+			  }
+		  }
         </script>
         <script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
     </body>
