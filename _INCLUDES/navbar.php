@@ -1,5 +1,5 @@
 <nav class="topNav" id="myTopnav">
-	<a href="index.php" id="logoResponsive">Pink Panthère</a>
+	<a href="index.php" id="logoResponsive">Pink Panthere</a>
 	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 		<i class="fa-solid fa-bars-staggered"></i>
 	</a>
