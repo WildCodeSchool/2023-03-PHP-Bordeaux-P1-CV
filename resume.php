@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,27 +8,37 @@
         <title>Résumé</title>
     </head>
     <body class="bodyGridContainer">
-        <header><?php include "_Includes/navbar.php"?></header>
-        <section id="biography">bio</section>
+        <header><?php include "_INCLUDES/navbar.php"?></header>
+        <section id="biography"><?php include "_INCLUDES/biography.php"?></section>
         <section id="softSkillsFormation">
+            <div id="softSkills"><?php include "_INCLUDES/skills.php"?></div>
+            <div id="formations"><?php include "_INCLUDES/formations.php"?></div>
             <div id="softSkills"><?php include "_INCLUDES/skills.php"?></div>
             <div id="formation"><?php include "_INCLUDES/formations.php"?></div>
         </section>
-        <section id="experience">exp</section>
+        <section id="experiences"><?php include "_INCLUDES/experiences.php"?></section>
         <section id="contactPlan">
-            <div id="contact">contact</div>
-            <div id="plan">plan</div></section>
-        <footer>footer</footer>
+            <div id="contact"><?php include "_INCLUDES/contact.php"?></div>
+            <div id="plan"><?php include "_INCLUDES/map.php"?></div></section>
+        <footer><?php include "_INCLUDES/footer.php"?></footer>
         
         <script>
-          function myFunction() {
-            const x = document.getElementById("myTopnav");
-            if (x.className === "topNav") {
-              x.className += " responsive";
-            } else {
-              x.className = "topNav";
-            }
-          }
+		const x = document.querySelector("#myTopnav");
+		const y = document.querySelector(".navbarResponsive");
+		let check = true;
+		  function myFunction() {
+			  console.log(check)
+			  if (check === true) {
+				  check = false;
+				  x.style.height = "auto";
+				  y.style.display = "initial";
+
+			  } else {
+				  x.style.height = "7vh";
+				  check = true;
+				  y.style.display = "none";
+			  }
+		  }
         </script>
         <script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
     </body>

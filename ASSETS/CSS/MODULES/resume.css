@@ -1,17 +1,18 @@
 * {
     box-sizing: border-box;
-    
 }
 
-body{
+body {
     margin: auto 0;
     height: 100%;
+    background-color: var(--primary-color);
+    color: var(--quinary);
 }
 
 .bodyGridContainer {
     display: grid;
     grid:
-        "header"              10vh
+        "header"              8vh
         "biography"           auto
         "softSkillsFormation" auto
         "experience"          auto
@@ -21,9 +22,22 @@ body{
     height: 100vh;
 }
 
-
 header {
     grid-area: header;
+}
+
+section, footer {
+    font-family: Josefin_Sans, Helvetica, sans-serif;
+}
+
+#biography, #softSkills, #formation, #experience, #contactPlan  {
+    background-color: var(--secondary-color);
+    margin: 10px;
+}
+
+@font-face {
+    font-family: Josefin_Sans;
+    src: url(/ASSETS/FONTS/fontsForTexts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
 }
 
 #biography {
@@ -69,7 +83,7 @@ footer {
     grid-area: footer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     #softSkillsFormation {
         grid-area: softSkillsFormation;
         display: grid;
@@ -77,6 +91,7 @@ footer {
             "softSkills" auto
             "formation"  auto
             /1fr;
+        ;
     }
 
     #contactPlan {
@@ -86,5 +101,18 @@ footer {
             "contact" auto
             "plan"    auto
             /1fr;
+    }
+
+    .bodyGridContainer {
+        display: grid;
+        grid:
+        "header"              auto
+        "biography"           auto
+        "softSkillsFormation" auto
+        "experience"          auto
+        "contactPlan"         auto
+        "footer"              10vh
+        /1fr;
+        height: 100vh;
     }
 }
