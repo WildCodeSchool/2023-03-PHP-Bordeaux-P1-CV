@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 :root{
     --primary-color: rgb(201, 60, 102);
@@ -10,28 +7,89 @@
     --quaternary-color:rgb(167, 223, 224);
 }
 
-.formation{
-    background-color: var(--secondary-color);
-    height: 60%;
-    width: 100%;
+@media screen and (max-width: 768px) {
+
+    .formation{
+        background-color: var(--secondary-color);
+        height: 60%;
+        width: 50%;
+    }
+
+    h2{
+        text-align: center;
+        color: var(--primary-color);
+
+    }
+
+    h3{
+        margin-left: 10px;
+        color: var(--primary-color);
+        margin-left: 15px;
+    }
+
+    li{
+        list-style: none;
+        color: var(--primary-color);
+        font-size: 16px;
+        margin: 10px;
+        
+    }
 }
 
-h2{
-    text-align: center;
-    color: var(--primary-color);
-
-}
-
-h3{
-    margin-left: 10px;
-    color: var(--primary-color);
-    margin-left: 15px;
-}
-
-li{
-    list-style: none;
-    color: var(--primary-color);
-    font-size: 16px;
-    margin: 10px;
+@media screen and (min-width: 768px) and (max-width: 991px){
     
+    .formation{
+        background-color: var(--secondary-color);
+        height: 60%;
+        width: 50%;
+    }
+
+    h2{
+        text-align: center;
+        color: var(--primary-color);
+
+    }
+
+    h3{
+        margin-left: 10px;
+        color: var(--primary-color);
+        margin-left: 15px;
+    }
+
+    li{
+        list-style: none;
+        color: var(--primary-color);
+        font-size: 16px;
+        margin: 10px;
+        
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .formation{
+        background-color: var(--secondary-color);
+        height: 60%;
+        width: 50%;
+    }
+
+    h2{
+        text-align: center;
+        color: var(--primary-color);
+
+    }
+
+    h3{
+        margin-left: 10px;
+        color: var(--primary-color);
+        margin-left: 15px;
+    }
+
+    li{
+        list-style: none;
+        color: var(--primary-color);
+        font-size: 16px;
+        margin: 10px;
+        
+    }
 }

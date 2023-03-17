@@ -12,8 +12,8 @@
         <header><?php include "_Includes/navbar.php"?></header>
         <section id="biography">bio</section>
         <section id="softSkillsFormation">
-            <div id="softSkills">softSkills</div>
-            <div id="formation">formation</div>
+            <div id="softSkills"><?php include "_INCLUDES/skills.php"?></div>
+            <div id="formation"><?php include "_INCLUDES/formations.php"?></div>
         </section>
         <section id="experience">exp</section>
         <section id="contactPlan">

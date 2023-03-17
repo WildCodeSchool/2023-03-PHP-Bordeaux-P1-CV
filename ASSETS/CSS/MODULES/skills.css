@@ -5,30 +5,79 @@
     --quaternary-color:rgb(167, 223, 224);
 }
 
-div{
-    background-color: var(--tertiary-color);
-    height: 50%;
+/*body{
+    background-color: var(--quaternary-color);
+    
+}*/
+
+#all{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 60%;
     width: 50%;
 }
 
-
-
-.progressCircle{
-    position: relative;
-    box-sizing: border-box;
-    font-size: 6em;
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-    border: .15em solid var(--quaternary-color);
-    background-color: var(--tertiary-color);
+@media screen and (max-width: 768px) {
+    
+    .circleWrap{
+        
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 150px;
+        height: 150px;
+        background-color: var(--primary-color);
+        border-radius: 50%;
+    }   
 }
 
-.progressMasque{
-    position: absolute;
-    width: 1em;
-    height: 1em;
-    left: -.15em;
-    top: -.15em;
-    clip: rect(0, 1em, 1em, .5em);
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .circleWrap{
+        
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 150px;
+        height: 150px;
+        background-color: var(--primary-color);
+        border-radius: 50%;
+    }   
+}
+
+@media screen and (min-width: 992px) {
+    
+    .circleWrap{
+        
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 150px;
+        height: 150px;
+        background-color: var(--primary-color);
+        border-radius: 50%;
+    }   
+}
+
+.circleWrap .circle .mask,
+.circleWrap .circle .fill-1,
+.circleWrap .circle .fill-1,
+.circleWrap .circle .fill-1{
+    width: 75px;
+    height: 75px;
+    /*position: absolute;*/
+    border-radius: 50%;
+}
+
+.circleWrap .circle .mask{
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+/*animation color*/
+.mask .fill-1{
+    clip: rect(0px, 75px 150px, 0px);
+    background-color: var(--quaternary-color);
+}
+.mask.full-1,
+.circle .fill-1{
+    animation: fill-1 ease-in-out 3s;
+    transform: rotate(135 deg);
 }
