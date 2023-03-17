@@ -1,7 +1,12 @@
 * {
     box-sizing: border-box;
+}
+
+body {
     margin: auto 0;
     height: 100%;
+    background-color: var(--primary-color);
+    color: var(--quinary);
 }
 
 .bodyGridContainer {
@@ -19,6 +24,20 @@
 
 header {
     grid-area: header;
+}
+
+section, footer {
+    font-family: Josefin_Sans, Helvetica, sans-serif;
+}
+
+#biography, #softSkills, #formation, #experience, #contactPlan  {
+    background-color: var(--secondary-color);
+    margin: 10px;
+}
+
+@font-face {
+    font-family: Josefin_Sans;
+    src: url(/ASSETS/FONTS/fontsForTexts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
 }
 
 #biography {
@@ -64,7 +83,7 @@ footer {
     grid-area: footer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     #softSkillsFormation {
         grid-area: softSkillsFormation;
         display: grid;
@@ -72,6 +91,7 @@ footer {
             "softSkills" auto
             "formation"  auto
             /1fr;
+        ;
     }
 
     #contactPlan {
