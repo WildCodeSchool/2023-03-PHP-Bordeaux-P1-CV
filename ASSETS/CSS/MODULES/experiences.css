@@ -9,7 +9,7 @@
         ".     timeline exp2"  23.75%
         "exp3  timeline ."     23.75%
         ".     timeline exp4"  23.75%
-        / 100fr  1fr      100fr;
+      / 100fr  1fr      100fr;
     height: 100%;
 }
 
@@ -17,7 +17,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
 }
 
 .box {
@@ -73,3 +72,5 @@
 #exp4 {
     grid-area: exp4;
 }
+
+

@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="../ASSETS/CSS/MODULES/experiences.css">
-
 <section class="gridContainer">
     <div id="title"><h1>Experiences</h1></div>
     <div id="timeline"></div>
