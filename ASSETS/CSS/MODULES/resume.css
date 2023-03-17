@@ -1,13 +1,18 @@
 * {
     box-sizing: border-box;
+}
+
+body {
     margin: auto 0;
     height: 100%;
+    background-color: var(--primary-color);
+    color: var(--quinary);
 }
 
 .bodyGridContainer {
     display: grid;
     grid:
-        "header"              10vh
+        "header"              8vh
         "biography"           auto
         "softSkillsFormation" auto
         "experience"          auto
@@ -17,19 +22,30 @@
     height: 100vh;
 }
 
-
 header {
-    background-color: brown;
     grid-area: header;
 }
 
+section, footer {
+    font-family: Josefin_Sans, Helvetica, sans-serif;
+}
+
+#biography, #softSkills, #formation, #experience, #contactPlan  {
+    background-color: var(--secondary-color);
+    margin: 10px;
+}
+
+@font-face {
+    font-family: Josefin_Sans;
+    src: url(/ASSETS/FONTS/fontsForTexts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
 #biography {
-    background-color: green;
     grid-area: biography;
 }
 
 #softSkillsFormation {
-    background-color: blueviolet;
+    grid-area: softSkillsFormation;
     display: grid;
     grid: 
     "softSkills formation" auto
@@ -38,22 +54,19 @@ header {
 }
 
 #softSkills {
-    background-color: aqua;
     grid-area: softSkills;
 }
 
 #formation {
-    background-color: rgb(160, 73, 175);
     grid-area: formation;
 }
 
 #experience {
-    background-color: bisque;
     grid-area: experience;
 }
 
 #contactPlan {
-    background-color: grey;
+    grid-area: contactPlan;
     display: grid;
     grid: 
     "contact plan" auto
@@ -62,20 +75,17 @@ header {
 }
 
 #contact {
-    background-color: azure;
     grid-area: contact;
 }
 #plan {
-    background-color: yellow;
     grid-area: plan;
 }
 
 footer {
-    background-color: red;
     grid-area: footer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     #softSkillsFormation {
         background-color: blueviolet;
         display: grid;
@@ -94,5 +104,18 @@ footer {
         "plan"    auto
         /1fr;
         grid-area: contactPlan;
+    }
+
+    .bodyGridContainer {
+        display: grid;
+        grid:
+        "header"              auto
+        "biography"           auto
+        "softSkillsFormation" auto
+        "experience"          auto
+        "contactPlan"         auto
+        "footer"              10vh
+        /1fr;
+        height: 100vh;
     }
 }

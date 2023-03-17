@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: POTRZEBI, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: POTRZEBI;
+    src: url(/ASSETS/FONTS/potrzebie/POTRZEBI.TTF);
+}
+
+/* -- Phone --*/
+@media screen and (max-width: 768px) {
+    .navbarResponsive {
+        margin-top: 50px;
+        z-index: 20;
+    }
+    .topNav {
+        background-color: var(--primary-color);
+        padding: 15px;
+        z-index: 1;
+    }
+
+    .topNav a {
+        color: var(--quinary);
+        text-decoration: none;
+        font-size: 50px;
+
+    }
+
+    .topNav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topNav.responsive {position: relative;}
+
+    .topNav.responsive .icon {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .topNav.responsive a {
+        display: block;
+        text-align: left;
+    }
+
+}
+
+/*-- Tablet --*/
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+    .topNav {
+        background-color: var(--primary-color);
+        padding: 15px;
+        position: relative;
+    }
+
+    .topNav a {
+        color: var(--quinary);
+        text-decoration: none;
+        font-size: 52px;
+    }
+
+    .topNav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topNav.responsive {position: relative;}
+
+    .topNav.responsive .icon {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    .topNav.responsive a {
+        display: block;
+        text-align: left;
+    }
+}
+
+/*-- Desktop --*/
+@media screen and (min-width: 992px) {
+    #logoResponsive {
+        display: none;
+    }
+
+    .navbarResponsive {
+        display: contents;
+    }
+
+    .topNav {
+        background-color: var(--primary-color);
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        overflow: hidden;
+        height: 8vh;
+    }
+
+    .topNav a {
+        color: var(--quinary);
+        padding: 20px 60px;
+        text-decoration: none;
+        font-size: 25px;
+        float: left;
+        display: block;
+    }
+
+    .topNav a:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+
+    .topNav a.active {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+
+    .topNav .icon {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
