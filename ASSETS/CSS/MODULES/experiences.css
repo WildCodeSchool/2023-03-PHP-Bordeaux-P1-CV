@@ -1,0 +1,76 @@
+@import "variables.css";
+
+.gridContainer {
+    background-color: var(--secondary-color);
+    display: grid;
+    grid:
+        "title title    title" 5%
+        "exp1  timeline ."     23.75%
+        ".     timeline exp2"  23.75%
+        "exp3  timeline ."     23.75%
+        ".     timeline exp4"  23.75%
+      / 100fr  1fr      100fr;
+    height: 100%;
+}
+
+.textContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: var(--quaternary-color);
+    border: solid;
+    border-color: var(--primary-color);
+    border-radius: 6px;
+    border-width: 3px;
+    color: var(--primary-color);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.box>h1 {
+    color: var(--primary-color)
+}
+.box>p {
+    color: var(--tertiary-color)
+}
+
+.connector {
+    border: solid;
+    border-color: var(--primary-color);
+    padding: 0;
+    width: 100%;
+}
+
+
+#title {
+    color: var(--primary-color);
+    display: flex;
+    grid-area: title;
+    justify-content: center;
+}
+
+#timeline {
+    background-color: var(--primary-color);
+    grid-area: timeline;
+}
+
+#exp1 {
+    grid-area: exp1;
+}
+
+#exp2 {
+    grid-area: exp2;
+}
+
+#exp3 {
+    grid-area: exp3;
+}
+
+#exp4 {
+    grid-area: exp4;
+}
+
+
