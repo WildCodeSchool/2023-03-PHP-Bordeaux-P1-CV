@@ -22,16 +22,19 @@
         
         <script>
 		const x = document.querySelector("#myTopnav");
+		const y = document.querySelector(".navbarResponsive");
 		let check = true;
 		  function myFunction() {
 			  console.log(check)
-			  if (check == true) {
+			  if (check === true) {
 				  check = false;
 				  x.style.height = "auto";
+				  y.style.display = "initial";
 
 			  } else {
 				  x.style.height = "7vh";
 				  check = true;
+				  y.style.display = "none";
 			  }
 		  }
         </script>
