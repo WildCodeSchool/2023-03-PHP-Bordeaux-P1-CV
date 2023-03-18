@@ -12,7 +12,7 @@ body {
 @media screen and (max-width: 768px) {
     .navbarResponsive {
         margin-top: 50px;
-
+        z-index: 20;
     }
     .topNav {
         background-color: var(--primary-color);
