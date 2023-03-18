@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+#plan {
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 992px) {
+    #contactPlan {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #plan {
+        margin-top: 78px;
+    }
+}

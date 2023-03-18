@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="ASSETS/CSS/main.css">
+		<link rel="icon" type="image/x-icon" href="ASSETS/IMAGES/favicon16x16.png">
         <title>Résumé</title>
     </head>
     <body class="bodyGridContainer">
@@ -18,7 +19,7 @@
         <section id="contactPlan">
             <div id="contact"><?php include "_INCLUDES/contact.php"?></div>
             <div id="plan"><?php include "_INCLUDES/map.php"?></div></section>
-        <footer><?php include "_INCLUDES/footer.php"?></footer>
+        <footer><?php include "_INCLUDES/footer.php"?><?php include "_INCLUDES/modal.php"?></footer>
         
         <script>
 		const x = document.querySelector("#myTopnav");

@@ -14,7 +14,8 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" placeholder="Votre message" style="height:200px"></textarea>
 
-            <input type="submit" value="Envoyer">
+			<a href="#formModal">Envoyer</a>
         </form>
     </div>
 </div>
+
