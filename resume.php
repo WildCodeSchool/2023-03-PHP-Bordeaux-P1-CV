@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="ASSETS/CSS/main.css">
 		<link rel="icon" type="image/x-icon" href="ASSETS/IMAGES/favicon16x16.png">
-        <title>Résumé</title>
+        <title>CV pink panthere</title>
     </head>
     <body class="bodyGridContainer">
         <header><?php include "_INCLUDES/navbar.php"?></header>
