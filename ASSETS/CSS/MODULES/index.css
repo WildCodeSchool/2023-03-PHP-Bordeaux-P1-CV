@@ -10,38 +10,38 @@
 }
 
 header {
-    grid-area: header;
+    align-items: center;
     background-color: var(--primary-color);
     display: flex;
+    grid-area: header;
     justify-content: flex-end;
-    align-items: center;
 }
 
 header>h1 {
     color: white;
-    padding-right: 5%;
     font-size: 600%;
+    padding-right: 5%;
 }
 
 nav {
-    grid-area: nav;
+    align-items: center;
     display: flex;
     flex-direction: column;
+    grid-area: nav;
     justify-content: space-around;
-    align-items: center;
+    margin-right: 5%;
     padding: 2.5%;
 }
 
 nav>button {
-    width: 100%;
-    border: solid;
-    border-radius: 12px;
-    border-color:  var(--primary-color);
     background-color: transparent;
+    border: solid;
+    border-color:  var(--primary-color);
+    border-radius: 12px;
+    width: 100%;
 }
 
 button:hover {
-    
     transform: rotate(0.03turn);
 }
 
@@ -49,23 +49,35 @@ nav>button>h1:hover {
     color: var(--quaternary-color);
 }
 
-
-
 #pinkPanther {
+    bottom: -3%;
     grid-area: pinkPanther;
-    position: absolute;
     height: 90%;
     left: -5%;
-    bottom: -3%;
+    position: absolute;
+}
+
+#pantherDesktop {
+    height: 100%;
+    transform: scaleX(-1);
+}
+
+#pantherMobile {
+    display: none;
 }
 
 main {
-    grid-area: main;
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
+    display: flex;
     flex-direction: column;
+    grid-area: main;
+    justify-content: flex-start;
     padding: 5%;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
 }
 
 h3 {
@@ -73,16 +85,57 @@ h3 {
 }
 
 footer {
-    grid-area: footer;
+    align-items: center;
     background-color: var(--primary-color);
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-direction: column;
+    grid-area: footer;
+    justify-content: space-around;
     padding: 5%;
 }
 
-#pinkPanther>img {
-    transform: scaleX(-1);
-    height: 100%;
+@media screen and (max-width: 768px) {
+    body {
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .gridContainer {
+        display: grid;
+        grid: 
+        "header" 20vh
+        "main"   auto
+        "main"   auto
+        "footer" 10vh
+        /1fr;
+        height: 100vh;
+    }
+
+    header {
+        display: flex;
+    }
+
+    header>h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #pantherDesktop {
+        display: none;
+    }
+    
+    #pantherMobile {
+        height: 50%;
+        display: initial;
+        transform: scaleX(-1);
+    }
+
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }

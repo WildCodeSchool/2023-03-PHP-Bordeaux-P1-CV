@@ -11,22 +11,19 @@
         <header>
             <h1>The Pink Panther</h1>
         </header>
-
         <nav>
-            <button class="fallingContainer"><h1>BIOGRAPHY</h1></button>
-            <button class="fallingContainer"><h1>SKILLS</h1></button>
-            <button class="fallingContainer"><h1>EDUCATION</h1></button>
-            <button class="fallingContainer"><h1>EXPERIENCES</h1></button>
-            <button class="fallingContainer"><h1>CONTACT ME</h1></button>
+            <button><h1>BIOGRAPHY</h1></button>
+            <button><h1>SKILLS</h1></button>
+            <button><h1>EDUCATION</h1></button>
+            <button><h1>EXPERIENCES</h1></button>
+            <button><h1>CONTACT ME</h1></button>
         </nav>
-
         <section id="pinkPanther">
-            <img src="ASSETS/IMAGES/pinkPanther6.webp" alt="The Pink Panther Standing up, showing off his pretty website.">
+            <img id="pantherDesktop"src="ASSETS/IMAGES/pinkPanther6.webp" alt="The Pink Panther Standing up, showing off his pretty website.">
+            <img id="pantherMobile"src="ASSETS/IMAGES/pantherSide.png" alt="The Pink Panther Standing up, showing off his pretty website.">
         </section>
         <main>
-            <div id="youtubeVideo">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/R4amWTwO1GM?controls=0&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+            <iframe src="https://www.youtube-nocookie.com/embed/R4amWTwO1GM?controls=0&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div>
                 <h1>Jaguar Longiligne et Agile</h1>
                 <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, accusantium officiis commodi iusto hic neque, odio exercitationem id molestias ea culpa eveniet optio corporis veritatis eaque enim! Dolorum, illum? Minus.</h3>
