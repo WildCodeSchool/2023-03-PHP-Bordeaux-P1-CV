@@ -17,7 +17,7 @@ header {
     align-items: center;
 }
 
-h1 {
+header>h1 {
     color: white;
     padding-right: 5%;
     font-size: 600%;
@@ -25,19 +25,50 @@ h1 {
 
 nav {
     grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5%;
+}
+
+nav>button {
+    width: 100%;
+    border: solid;
+    border-radius: 12px;
+    border-color:  var(--primary-color);
+    background-color: transparent;
 }
 
 #pinkPanther {
     grid-area: pinkPanther;
+    position: absolute;
+    height: 90%;
+    left: -5%;
+    bottom: 0%;
 }
 
 main {
     grid-area: main;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+h3 {
+    text-align: center;
 }
 
 footer {
     grid-area: footer;
     background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
 }
 
 #pinkPanther>img {
