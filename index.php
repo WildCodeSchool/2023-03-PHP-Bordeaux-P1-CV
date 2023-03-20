@@ -8,10 +8,14 @@
         <title>Homepage</title>
     </head>
     <body class="gridContainer">
-        <header></header>
-
-        <main></main>
-        <nav></nav>
-        <footer></footer>
+        <header>
+            <h1>The Pink Panther</h1>
+        </header>
+        <nav>nav</nav>
+        <section id="pinkPanther">
+            <img src="ASSETS/IMAGES/pinkPanther.png" alt="The Pink Panther Standing up, showing off his pretty website.">
+        </section>
+        <main>main</main>
+        <footer>footer</footer>
     </body>
 </html>

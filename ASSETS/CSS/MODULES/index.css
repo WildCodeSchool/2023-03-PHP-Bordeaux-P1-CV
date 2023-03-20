@@ -1,0 +1,46 @@
+.gridContainer {
+    display: grid;
+    grid: 
+        "header      header nav"    20vh
+        "pinkPanther main   nav"    auto
+        "pinkPanther main   nav"    auto
+        "pinkPanther footer footer" 10vh
+       /1fr          1fr    1fr;
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    padding-right: 5%;
+    font-size: 600%;
+}
+
+nav {
+    grid-area: nav;
+}
+
+#pinkPanther {
+    grid-area: pinkPanther;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    background-color: var(--primary-color);
+}
+
+#pinkPanther>img {
+    transform: scaleX(-1);
+    height: 100%;
+}
