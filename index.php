@@ -13,11 +13,11 @@
         </header>
 
         <nav>
-            <button><h1>BIOGRAPHY</h1></button>
-            <button><h1>SKILLS</h1></button>
-            <button><h1>EDUCATION</h1></button>
-            <button><h1>EXPERIENCES</h1></button>
-            <button><h1>CONTACT ME</h1></button>
+            <button class="fallingContainer"><h1>BIOGRAPHY</h1></button>
+            <button class="fallingContainer"><h1>SKILLS</h1></button>
+            <button class="fallingContainer"><h1>EDUCATION</h1></button>
+            <button class="fallingContainer"><h1>EXPERIENCES</h1></button>
+            <button class="fallingContainer"><h1>CONTACT ME</h1></button>
         </nav>
 
         <section id="pinkPanther">

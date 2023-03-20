@@ -5,7 +5,7 @@
         "pinkPanther main   nav"    auto
         "pinkPanther main   nav"    auto
         "pinkPanther footer footer" 10vh
-       /1fr          1fr    1fr;
+       /1fr          2fr    2fr;
     height: 100vh;
 }
 
@@ -40,12 +40,23 @@ nav>button {
     background-color: transparent;
 }
 
+button:hover {
+    
+    transform: rotate(0.03turn);
+}
+
+nav>button>h1:hover {
+    color: var(--quaternary-color);
+}
+
+
+
 #pinkPanther {
     grid-area: pinkPanther;
     position: absolute;
     height: 90%;
     left: -5%;
-    bottom: 0%;
+    bottom: -3%;
 }
 
 main {
