@@ -48,8 +48,8 @@ section, footer {
     grid-area: softSkillsFormation;
     display: grid;
     grid: 
-        "softSkills formation" auto
-        /1fr 1fr;
+    "softSkills formation" auto
+    /1fr 1fr;
 }
 
 #softSkills {
@@ -100,8 +100,8 @@ section, footer {
     grid-area: contactPlan;
     display: grid;
     grid: 
-        "contact plan" auto
-        /1fr 1fr;
+    "contact plan" auto
+    /1fr 1fr;
 }
 
 #contact {
@@ -117,22 +117,21 @@ footer {
 
 @media screen and (max-width: 768px) {
     #softSkillsFormation {
-        grid-area: softSkillsFormation;
         display: grid;
         grid: 
-            "softSkills" auto
-            "formation"  auto
-            /1fr;
-        ;
+        "softSkills" auto
+        "formation"  auto
+        /1fr;
+        grid-area: softSkillsFormation;
     }
 
     #contactPlan {
-        grid-area: contactPlan;
         display: grid;
         grid: 
-            "contact" auto
-            "plan"    auto
-            /1fr;
+        "contact" auto
+        "plan"    auto
+        /1fr;
+        grid-area: contactPlan;
     }
 
     .bodyGridContainer {
