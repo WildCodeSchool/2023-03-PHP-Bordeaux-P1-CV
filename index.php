@@ -12,11 +12,12 @@
             <h1>The Pink Panther</h1>
         </header>
         <nav>
-            <button><h1>BIOGRAPHY</h1></button>
-            <button><h1>SKILLS</h1></button>
-            <button><h1>EDUCATION</h1></button>
-            <button><h1>EXPERIENCES</h1></button>
-            <button><h1>CONTACT ME</h1></button>
+            <button><h1><a href="resume.php/#biography">BIOGRAPHY</a></h1></button>
+            <button><h1><a href="resume.php/#softSkillsFormation">SKILLS</a></h1></button>
+            <button><h1><a href="resume.php/#softSkillsFormation">FORMATION</a></h1></button>
+            <button><h1><a href="resume.php/#experiences">EXPERIENCES</a></h1></button>
+            <button><h1><a href="resume.php/#contact">CONTACT ME</a></h1></button>
+
         </nav>
         <section id="pinkPanther">
             <img id="pantherDesktop"src="ASSETS/IMAGES/pinkPanther6.webp" alt="The Pink Panther Standing up, showing off his pretty website.">
@@ -31,7 +32,7 @@
             </div>
         </main>
         <footer>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, accusantium officiis commodi iusto hic neque, odio exercitationem id molestias ea culpa eveniet optio corporis veritatis eaque enim! Dolorum, illum? Minus.</p>
+            <p>Mentions Légales: Site conçu à des fins pédagogique</p>
         </footer>
     </body>
 </html>

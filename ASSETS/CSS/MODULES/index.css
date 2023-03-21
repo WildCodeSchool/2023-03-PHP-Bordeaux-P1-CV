@@ -1,7 +1,7 @@
 .gridContainer {
     display: grid;
     grid: 
-        "header      header nav"    20vh
+        "header      header nav"    25vh
         "pinkPanther main   nav"    auto
         "pinkPanther main   nav"    auto
         "pinkPanther footer footer" 10vh
@@ -19,8 +19,8 @@ header {
 
 header>h1 {
     color: white;
-    font-size: 600%;
-    padding-right: 5%;
+    font-size: 5rem;
+    margin-right: 3%;
 }
 
 nav {
@@ -49,12 +49,18 @@ nav>button>h1:hover {
     color: var(--quaternary-color);
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 #pinkPanther {
     bottom: -3%;
     grid-area: pinkPanther;
     height: 90%;
-    left: -5%;
+    left: -10%;
     position: absolute;
+    pointer-events: none;
 }
 
 #pantherDesktop {
@@ -82,6 +88,7 @@ iframe {
 
 h3 {
     text-align: center;
+    color: var(--primary-color);
 }
 
 footer {
@@ -92,6 +99,8 @@ footer {
     grid-area: footer;
     justify-content: space-around;
     padding: 5%;
+    text-align: end;
+    padding-left: 15%;
 }
 
 @media screen and (max-width: 768px) {
