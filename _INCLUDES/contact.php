@@ -1,21 +1,23 @@
 <div class="container">
     <h1>Formulaire de contact</h1>
     <div class="formBloc">
-        <form action="/action_page.php">
-            <label for="fname">Nom & prénom</label>
-            <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+        <form> <!--action="/_INCLUDES/message.php" method="post"-->
+            <label for="firstName">Nom & prénom</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Votre nom et prénom">
 
-            <label for="emailAddress">Email</label>
-            <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Votre email">
 
-            <label for="sujet">Sujet</label>
-            <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" placeholder="L'objet de votre message">
 
             <label for="message">Message</label>
             <textarea id="message" name="message" placeholder="Votre message" style="height:200px"></textarea>
 
-			<a href="#formModal">Envoyer</a>
+			<button class="button" type="submit" name="submit" onclick="displayMessage()" value="Display alert box">Envoyer votre message</button>
+
         </form>
     </div>
 </div>
+
 

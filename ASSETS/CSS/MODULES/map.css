@@ -1,11 +1,25 @@
 @media screen and (max-width: 768px) {
+    .map {
+        width: 92vw;
+        height: 92vw;
+        margin-top: 78px;
+    }
 
+    #plan {
+        background-color: var(--secondary-color);
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-#plan {
-    width: 100%;
-}
+    .map {
+        width: 92vw;
+        height: 92vw;
+        margin-top: 78px;
+    }
+
+    #plan {
+        background-color: var(--secondary-color);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -15,7 +29,9 @@
         justify-content: space-around;
     }
 
-    #plan {
+    .map {
+        width: 40vw;
+        height: 40vw;
         margin-top: 78px;
     }
 }
