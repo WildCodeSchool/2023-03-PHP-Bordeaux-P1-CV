@@ -2,11 +2,12 @@
     .map {
         width: 92vw;
         height: 92vw;
-        margin-top: 78px;
     }
 
     #plan {
         background-color: var(--secondary-color);
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -14,7 +15,6 @@
     .map {
         width: 92vw;
         height: 92vw;
-        margin-top: 78px;
     }
 
     #plan {
