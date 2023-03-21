@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="ASSETS/CSS/main.css">
+<<<<<<< HEAD
 		<link rel="icon" type="image/x-icon" href="ASSETS/IMAGES/favicon16x16.png">
+=======
+		<link rel="icon" type="image/x-icon" href="ASSETS/IMAGES/favicon_io/favicon.ico">
+>>>>>>> 5fc79fad150c739b56e60488af1e1ae6720f243b
         <title>CV pink panthere</title>
     </head>
     <body class="bodyGridContainer">
-        <header><?php include "_INCLUDES/navbar.php"?></header>
+        <header><?php include "_INCLUDES/navbar.php" ?></header>
         <section id="biography"><?php include "_INCLUDES/biography.php"?></section>
         <section id="softSkillsFormation">
             <div id="softSkills"><?php include "_INCLUDES/skills.php"?></div>
@@ -19,9 +23,10 @@
         <section id="contactPlan">
             <div id="contact"><?php include "_INCLUDES/contact.php"?></div>
             <div id="plan"><?php include "_INCLUDES/map.php"?></div></section>
-        <footer><?php include "_INCLUDES/footer.php"?><?php include "_INCLUDES/modal.php"?></footer>
-        
+        <footer><?php include "_INCLUDES/footer.php"?></footer>
+
         <script>
+			//Navbar
 		const x = document.querySelector("#myTopnav");
 		const y = document.querySelector(".navbarResponsive");
 		let check = true;
@@ -38,6 +43,12 @@
 				  y.style.display = "none";
 			  }
 		  }
+
+		  //Send Message
+			function displayMessage()
+			{
+				alert("Message Envoyé !");
+			}
         </script>
         <script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
     </body>

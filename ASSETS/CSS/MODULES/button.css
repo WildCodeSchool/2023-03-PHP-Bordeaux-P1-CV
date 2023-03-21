@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .button {
+        text-decoration: none;
+        padding: 15px;
+        background-color: var(--quaternary-color);
+        border-radius: 5px;
+        text-transform: uppercase;
+        width: max-content;
+        color: var(--quinary);
+    }
+
+    .button:hover {
+        background-color: var(--tertiary-color);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .button {
+        padding: 15px;
+        background-color: var(--quaternary-color);
+        border-radius: 5px;
+        text-transform: uppercase;
+        width: max-content;
+        color: var(--quinary);
+        border: 0;
+    }
+
+    .button:hover {
+        background-color: var(--tertiary-color);
+    }
+}
