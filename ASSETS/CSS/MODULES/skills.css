@@ -17,11 +17,13 @@
         height: 150px;
         background-color: var(--primary-color);
         border-radius: 50%;
-    }   
+    }  
+    
     #softSkills{
-        align-items: space-around;
+        align-items: center;
         display: flex;
         flex-direction: column;
+        height: auto;
         justify-content: center;
         padding: 20px;
         text-align: center;
@@ -43,9 +45,10 @@
         border-radius: 50%;
     }  
     #softSkills{
-        align-items: space-around;
+        align-items: center;
         display: flex;
         flex-direction: column;
+        height: auto;
         text-align: center;
         padding: 20px;
         justify-content: center;
@@ -67,6 +70,7 @@
         border-radius: 50%;
     } 
     #softSkills{
+        align-items: center;
         padding: 20px;
         text-align: center;
     }  
@@ -160,6 +164,4 @@
     font-weight: 700;
     text-align: center;
     color: var(--quaternary-color);
-    font-family: POTRZEBI;
-    src: url(/ASSETS/FONTS/potrzebie/POTRZEBI.TTF);
 }
