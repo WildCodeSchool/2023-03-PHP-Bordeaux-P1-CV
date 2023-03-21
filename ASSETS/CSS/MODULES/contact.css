@@ -58,7 +58,13 @@
     #contactPlan {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+
+    #contact {
+        width: 100%;
+    }
+
     form {
         display: flex;
         flex-direction: column;

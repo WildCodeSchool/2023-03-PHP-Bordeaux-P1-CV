@@ -50,7 +50,6 @@ section, footer {
     grid: 
     "softSkills formation" auto
     /1fr 1fr;
-    grid-area: softSkillsFormation;
 }
 
 #softSkills {
@@ -71,7 +70,6 @@ section, footer {
     grid: 
     "contact plan" auto
     /1fr 1fr;
-    grid-area: contactPlan;
 }
 
 #contact {
@@ -87,7 +85,6 @@ footer {
 
 @media screen and (max-width: 768px) {
     #softSkillsFormation {
-        background-color: blueviolet;
         display: grid;
         grid: 
         "softSkills" auto
@@ -97,7 +94,6 @@ footer {
     }
 
     #contactPlan {
-        background-color: grey;
         display: grid;
         grid: 
         "contact" auto
