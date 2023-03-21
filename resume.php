@@ -5,11 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="ASSETS/CSS/main.css">
-<<<<<<< HEAD
-		<link rel="icon" type="image/x-icon" href="ASSETS/IMAGES/favicon16x16.png">
-=======
 		<link rel="icon" type="image/x-icon" href="ASSETS/IMAGES/favicon_io/favicon.ico">
->>>>>>> 5fc79fad150c739b56e60488af1e1ae6720f243b
         <title>CV pink panthere</title>
     </head>
     <body class="bodyGridContainer">
