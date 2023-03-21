@@ -12,8 +12,6 @@
         <section id="biography"><?php include "_INCLUDES/biography.php"?></section>
         <section id="softSkillsFormation">
             <div id="softSkills"><?php include "_INCLUDES/skills.php"?></div>
-            <div id="formations"><?php include "_INCLUDES/formations.php"?></div>
-            <div id="softSkills"><?php include "_INCLUDES/skills.php"?></div>
             <div id="formation"><?php include "_INCLUDES/formations.php"?></div>
         </section>
         <section id="experiences"><?php include "_INCLUDES/experiences.php"?></section>

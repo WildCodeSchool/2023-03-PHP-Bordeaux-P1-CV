@@ -54,10 +54,42 @@ section, footer {
 
 #softSkills {
     grid-area: softSkills;
+    display: grid;
+    grid:
+    "skills skills" 50px
+    "circle1 circle2" auto
+    "circle3 circle4" auto
+    /1fr     1fr;
+    height: 100vh;
+    }
+ 
+#skills{
+    grid-area: skills;
+}    
+
+#circle1 {
+    grid-area: circle1;
+}
+
+#circle2 {
+    grid-area: circle2;
+}
+
+#circle3 {
+    grid-area: circle3;
+}
+
+#circle4 {
+    grid-area: circle4;
 }
 
 #formation {
     grid-area: formation;
+    /*display: grid;
+    grid: 
+        "formations" auto
+        /1fr;
+    height: 100vh;*/
 }
 
 #experience {

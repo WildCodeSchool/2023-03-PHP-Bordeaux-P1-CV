@@ -3,60 +3,83 @@
     
 }*/
 
-#all{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: 60%;
-    width: 50%;
-}
-
+/*  Phone  */
 @media screen and (max-width: 768px) {
     
     .circleWrap{
-        
-        margin-top: 100px;
-        margin-left: 50px;
+        /*display: grid;
+        grid-template-columns: repeat(1, 160px);
+        grid-gap: 80px;*/
+
+        margin-left: auto;
+        margin-right: auto;
         width: 150px;
         height: 150px;
         background-color: var(--primary-color);
         border-radius: 50%;
     }   
+    #softSkills{
+        align-items: space-around;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
 }
 
+/*  Pad  */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     
     .circleWrap{
-        
-        margin-top: 100px;
-        margin-left: 50px;
+        /*display: grid;
+        grid-template-columns: repeat(1, 160px);
+        grid-gap: 80px;*/
+        margin-left: auto;
+        margin-right: auto;
         width: 150px;
         height: 150px;
         background-color: var(--primary-color);
         border-radius: 50%;
-    }   
+    }  
+    #softSkills{
+        align-items: space-around;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        justify-content: center;
+    } 
 }
 
+/*  Desktop  */
 @media screen and (min-width: 992px) {
     
     .circleWrap{
-        
-        margin-top: 100px;
-        margin-left: 50px;
+        /*display: grid;
+        grid-template-columns: repeat(1, 160px);
+        grid-gap: 80px;*/
+        margin-left: auto;
+        margin-right: auto;
         width: 150px;
         height: 150px;
         background-color: var(--primary-color);
         border-radius: 50%;
-    }   
+    } 
+    #softSkills{
+        padding: 20px;
+        text-align: center;
+    }  
 }
 
 .circleWrap .circle .mask,
 .circleWrap .circle .fill-1,
-.circleWrap .circle .fill-1,
-.circleWrap .circle .fill-1{
-    width: 75px;
-    height: 75px;
-    /*position: absolute;*/
+.circleWrap .circle .fill-2,
+.circleWrap .circle .fill-3,
+.circleWrap .circle .fill-4{
+    width: 150px;
+    height: 150px;
+    position: absolute;
     border-radius: 50%;
 }
 
@@ -64,7 +87,7 @@
     clip: rect(0px, 150px, 150px, 75px);
 }
 
-/*animation color*/
+/*1st animation progres*/
 .mask .fill-1{
     clip: rect(0px, 75px 150px, 0px);
     background-color: var(--quaternary-color);
@@ -72,5 +95,71 @@
 .mask.full-1,
 .circle .fill-1{
     animation: fill-1 ease-in-out 3s;
-    transform: rotate(135 deg);
+    transform: rotate(117deg);
+}
+@keyframes fill-1{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(117deg)}
+}
+
+/*2nd animation progres*/
+.mask .fill-2{
+    clip: rect(0px, 150px 150px, 0px);
+    background-color: var(--quaternary-color);
+}
+.mask.full-2,
+.circle .fill-2{
+    animation: fill-2 ease-in-out 3s;
+    transform: rotate(153deg);
+}
+@keyframes fill-2{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(153deg)}
+}
+
+/*3rd animation progres*/
+.mask .fill-3{
+    clip: rect(0px, 150px 150px, 0px);
+    background-color: var(--quaternary-color);
+}
+.mask.full-3,
+.circle .fill-3{
+    animation: fill-3 ease-in-out 3s;
+    transform: rotate(133deg);
+}
+@keyframes fill-3{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(133deg)}
+}
+
+/*4th animation progres*/
+.mask .fill-4{
+    clip: rect(0px, 150px 150px, 0px);
+    background-color: var(--quaternary-color);
+}
+.mask.full-4,
+.circle .fill-4{
+    animation: fill-4 ease-in-out 3s;
+    transform: rotate(53deg);
+}
+@keyframes fill-4{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(53deg)}
+}
+.insideCircle{
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    line-height: 120px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 13px;
+    z-index: 100;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--quaternary-color);
+    font-family: POTRZEBI;
+    src: url(/ASSETS/FONTS/potrzebie/POTRZEBI.TTF);
 }

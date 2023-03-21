@@ -2,13 +2,15 @@
 
     .formation{
         background-color: var(--secondary-color);
-        height: 60%;
-        width: 50%;
+        padding: 20px;
+        /*height: 60%;*/
+        width: 100%;
     }
 
     h2{
-        text-align: center;
         color: var(--primary-color);
+        font-family: POTRZEBI;
+        src: url(/ASSETS/FONTS/potrzebie/POTRZEBI.TTF);
 
     }
 
@@ -31,13 +33,16 @@
     
     .formation{
         background-color: var(--secondary-color);
-        height: 60%;
-        width: 50%;
+        padding: 20px;
+        /*height: 60%;*/
+        width: 100%;
     }
 
     h2{
         text-align: center;
         color: var(--primary-color);
+        font-family: POTRZEBI;
+        src: url(/ASSETS/FONTS/potrzebie/POTRZEBI.TTF);
 
     }
 
@@ -60,13 +65,16 @@
 
     .formation{
         background-color: var(--secondary-color);
-        height: 60%;
-        width: 50%;
+        padding: 20px;
+        /*height: 100%;*/
+        width: 100%;
     }
 
     h2{
         text-align: center;
         color: var(--primary-color);
+        font-family: POTRZEBI;
+        src: url(/ASSETS/FONTS/potrzebie/POTRZEBI.TTF);
 
     }
 
