@@ -1,11 +1,9 @@
 @import "MODULES/index.css";
 @import "MODULES/resume.css";
 @import "MODULES/navbar.css";
-@import "MODULES/resumeMain.css";
 @import "MODULES/biography.css";
 @import "MODULES/contact.css";
 @import "MODULES/map.css";
-@import "MODULES/footer.css";
 @import "MODULES/experiences.css";
 @import "MODULES/button.css";
 @import "MODULES/skills.css";
@@ -28,7 +26,7 @@
 * {
     box-sizing: border-box;
     font-family: Josefin_Sans;
-    
+    margin: auto 0;
 }
 
 @font-face {
@@ -64,6 +62,10 @@ h2 {
     margin: 0;
     padding: 5%;
     width: 100%;
+}
+
+.bccColorPrimary {
+    background-color: var(--primary-color);
 }
 
 .fontColorPrimary {

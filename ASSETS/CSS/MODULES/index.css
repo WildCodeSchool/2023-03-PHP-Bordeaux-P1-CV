@@ -11,14 +11,14 @@
 
 #indexHeader {
     align-items: center;
-    background-color: var(--primary-color);
     display: flex;
     grid-area: header;
     justify-content: flex-end;
+    height: 100%
 }
 
 #indexHeader>h1 {
-    color: white;
+    font-size: 7rem;
 }
 
 #indexNav {
@@ -29,6 +29,7 @@
     justify-content: space-around;
     margin-right: 5%;
     padding: 2.5%;
+    height: 100%;
 }
 
 #indexNav>button {
@@ -43,27 +44,29 @@
     transform: rotate(0.03turn);
 }
 
-#indexNav>button>h1:hover {
+#indexNav>button>h2:hover {
     color: var(--quaternary-color);
 }
 
-#indexNav>button>h1>a {
+#indexNav>button>h2>a {
+    font-size: 4rem;
     text-decoration: none;
     color: var(--primary-color);
 }
 
 #pinkPanther {
-    bottom: -3%;
     grid-area: pinkPanther;
     height: 90%;
+    top: 10%;
     left: -10%;
-    position: absolute;
+    
     pointer-events: none;
 }
 
 #pantherDesktop {
-    height: 100%;
+    height: 97%;
     transform: scaleX(-1);
+    clip: rect(0px, 0px, 1000px, 0px);
 }
 
 #pantherMobile {
@@ -75,37 +78,42 @@
     display: flex;
     flex-direction: column;
     grid-area: main;
-    justify-content: flex-start;
+    justify-content: center;
+}
+
+#indexBody>video {
     padding: 5%;
 }
 
-#indexBody>main>iframe {
-    height: 100%;
-    width: 100%;
+#indexBody>main>div {
+    text-align: center;
+    color: var(--primary-color);
+    margin: 5%;
+    padding: 0;
 }
 
 #indexBody>main>div>h2 {
     font-size: 2rem;
     text-align: center;
     color: var(--primary-color);
-    margin: 5%;
-    padding: 0;
 }
+
 #indexBody>main>div>h3 {
-    text-align: center;
+
     color: var(--primary-color);
 }
 
 #indexBody>footer {
-    align-items: center;
-    background-color: var(--primary-color);
-    display: flex;
-    flex-direction: column;
+
     grid-area: footer;
-    justify-content: space-around;
-    padding: 5%;
-    text-align: end;
-    padding-left: 15%;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 @media screen and (max-width: 768px) {
