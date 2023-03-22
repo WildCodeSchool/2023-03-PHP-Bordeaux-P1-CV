@@ -1,7 +1,7 @@
 <h2>Skills</h2>
     
 <!--1st progress-->
-<div class="test" id="circle1">
+<div class="gauge" id="circle1">
     <div class="circleWrap" >
         <div class="circle">
                 
@@ -22,7 +22,7 @@
 </div>
 
 <!--2nd progress-->
-<div class="test2" id="circle2">
+<div class="gauge" id="circle2">
     <div class="circleWrap" >
         <div class="circle">
 
@@ -42,7 +42,7 @@
 </div>
 
 <!--3rd progress-->
-<div class="test3" id="circle3">
+<div class="gauge" id="circle3">
     <div class="circleWrap" >
         <div class="circle">
                     <!--1st part-->
@@ -61,7 +61,7 @@
 </div>
 
 <!--4th progress-->
-<div class="test4" id="circle4">
+<div class="gauge" id="circle4">
     <div class="circleWrap" >
         <div class="circle">
                     <!--1st part-->

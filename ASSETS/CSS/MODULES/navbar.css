@@ -1,44 +1,46 @@
-/*-- Desktop --*/
+#topNav {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+#topNav>div>a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    float: left;
+}
+
+#topNav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#topNav a.active {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+#topNav .icon {
+    display: none;
+}
 
 #logoResponsive {
     display: none;
 }
 
-.navbarResponsive {
+#navbarResponsive {
     display: contents;
-}
-
-.topNav {
-    background-color: var(--primary-color);
     display: flex;
     justify-content: center;
-    font-size: 40px;
-    overflow: hidden;
-    height: 8vh;
-    width: 100vw;
+    align-items: center;
+    width: 100%; 
 }
 
-.topNav a {
-    color: var(--quinary);
-    padding: 20px 60px;
-    text-decoration: none;
-    font-size: 25px;
-    float: left;
-    /*display: block;*/
-}
-
-.topNav a:hover {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-}
-
-.topNav a.active {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-}
-
-.topNav .icon {
-    display: none;
+#navbarResponsive>a {
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    text-align: center;
 }
 
 
@@ -48,38 +50,39 @@
 
 
 /* -- Phone --*/
-@media screen and (max-width: 768px) {
-    .navbarResponsive {
+@media screen and (max-width: 480px) {
+    #navbarResponsive {
         margin-top: 50px;
         z-index: 20;
     }
-    .topNav {
+
+    #topNav {
         background-color: var(--primary-color);
         padding: 15px;
         z-index: 1;
     }
 
-    .topNav a {
-        color: var(--quinary);
+    #topNav a {
         text-decoration: none;
         font-size: 50px;
-        font-family: POTRZEBI, Helvetica, sans-serif;
     }
 
-    .topNav a.icon {
+    #topNav a.icon {
         float: right;
         display: block;
     }
 
-    .topNav.responsive {position: relative;}
+    #topNav.responsive {
+        position: relative;
+    }
 
-    .topNav.responsive .icon {
+    #topNav.responsive .icon {
         position: absolute;
         right: 10px;
         top: 10px;
     }
 
-    .topNav.responsive a {
+    #topNav.responsive a {
         display: block;
         text-align: left;
     }
@@ -88,37 +91,36 @@
 
 /*-- Tablet --*/
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
 
-    .topNav {
-        background-color: var(--primary-color);
+    #topNav {
+        
         padding: 15px;
         position: relative;
     }
 
-    .topNav a {
-        color: var(--quinary);
+    #topNav a {
         text-decoration: none;
         font-size: 52px;
     }
 
-    .topNav a.icon {
+    #topNav a.icon {
         float: right;
-        display: block;
+        display: content;
     }
 
-    .topNav.responsive {position: relative;}
+    #topNav.responsive {
+        position: relative;
+    }
 
-    .topNav.responsive .icon {
+    #topNav.responsive .icon {
         position: absolute;
         right: 15px;
         top: 15px;
     }
 
-    .topNav.responsive a {
+    #topNav.responsive a {
         display: block;
         text-align: left;
     }
 }
-
-

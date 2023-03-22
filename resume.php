@@ -12,7 +12,6 @@
     <body id="resumeBody">
         <header class="fontColorSecondary"><?php include "_INCLUDES/navbar.php" ?></header>
 
-        <hr>
         <h1> The Pink Panther </h1>
         <hr>
 
