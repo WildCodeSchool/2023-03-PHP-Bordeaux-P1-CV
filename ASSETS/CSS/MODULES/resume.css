@@ -31,9 +31,14 @@
     background-color: var(--primary-color);
     min-height: 5%;
     width: 100%;
-    font-size: 2rem;;
     padding: 2rem;
     text-align: end;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #biography {
@@ -72,36 +77,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
     #softSkillsFormation {
         background-color: blueviolet;
@@ -134,5 +109,10 @@
         "footer"              10vh
         /1fr;
         height: 100vh;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
     }
 }
