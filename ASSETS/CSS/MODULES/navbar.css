@@ -1,12 +1,51 @@
-body {
-    margin: 0;
-    font-family: POTRZEBI, Helvetica, sans-serif;
+/*-- Desktop --*/
+
+#logoResponsive {
+    display: none;
 }
 
-@font-face {
-    font-family: POTRZEBI;
-    src: url(/ASSETS/FONTS/potrzebie/POTRZEBI.TTF);
+.navbarResponsive {
+    display: contents;
 }
+
+.topNav {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    overflow: hidden;
+    height: 8vh;
+    width: 100vw;
+}
+
+.topNav a {
+    color: var(--quinary);
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+    /*display: block;*/
+}
+
+.topNav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.topNav a.active {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.topNav .icon {
+    display: none;
+}
+
+
+
+
+
+
 
 /* -- Phone --*/
 @media screen and (max-width: 768px) {
@@ -24,7 +63,7 @@ body {
         color: var(--quinary);
         text-decoration: none;
         font-size: 50px;
-
+        font-family: POTRZEBI, Helvetica, sans-serif;
     }
 
     .topNav a.icon {
@@ -81,55 +120,5 @@ body {
         text-align: left;
     }
 }
-
-/*-- Desktop --*/
-@media screen and (min-width: 992px) {
-    #logoResponsive {
-        display: none;
-    }
-
-    .navbarResponsive {
-        display: contents;
-    }
-
-    .topNav {
-        background-color: var(--primary-color);
-        display: flex;
-        justify-content: center;
-        font-size: 40px;
-        overflow: hidden;
-        height: 8vh;
-    }
-
-    .topNav a {
-        color: var(--quinary);
-        padding: 20px 60px;
-        text-decoration: none;
-        font-size: 25px;
-        float: left;
-        display: block;
-    }
-
-    .topNav a:hover {
-        background-color: var(--secondary-color);
-        color: var(--primary-color);
-    }
-
-    .topNav a.active {
-        background-color: var(--secondary-color);
-        color: var(--primary-color);
-    }
-
-    .topNav .icon {
-        display: none;
-    }
-
-}
-
-
-
-
-
-
 
 

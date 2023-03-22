@@ -1,0 +1,170 @@
+@media screen and (max-width: 768px) {
+    .circleWrap{
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        height: 150px;
+        background-color: var(--secondary-color);
+        border-radius: 50%;
+    }  
+    
+    #softSkills{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/*  Pad  */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .circleWrap{
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        height: 150px;
+        background-color: var(--secondary-color);
+        border-radius: 50%;
+    }  
+    #softSkills{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+    } 
+}
+
+/*  Desktop  */
+@media screen and (min-width: 992px) {
+    .circleWrap{
+        background-color: var(--secondary-color);
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+    } 
+    
+    #skills{
+        display: grid;
+        grid:
+            ".       skills"  auto
+            "circle1 circle2" auto
+            "circle3 circle4" auto
+            /1fr     1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #skills {
+        grid-area: skills;
+    }
+
+    #circle1 {
+        grid-area: circle1;
+    }
+
+    #circle2 {
+        grid-area: circle2;
+    }
+
+    #circle3 {
+        grid-area: circle3;
+    }
+
+    #circle4 {
+        grid-area: circle4;
+    }
+}
+
+.circleWrap .circle .mask,
+.circleWrap .circle .fill-1,
+.circleWrap .circle .fill-2,
+.circleWrap .circle .fill-3,
+.circleWrap .circle .fill-4{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circleWrap .circle .mask{
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+/*1st animation progres*/
+.mask .fill-1{
+    clip: rect(0px, 75px 150px, 0px);
+    background-color: var(--primary-color);
+}
+.mask.full-1,
+.circle .fill-1{
+    animation: fill-1 ease-in-out 3s;
+    transform: rotate(117deg);
+}
+@keyframes fill-1{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(117deg)}
+}
+
+/*2nd animation progres*/
+.mask .fill-2{
+    clip: rect(0px, 150px 150px, 0px);
+    background-color: var(--primary-color);
+}
+.mask.full-2,
+.circle .fill-2{
+    animation: fill-2 ease-in-out 3s;
+    transform: rotate(153deg);
+}
+@keyframes fill-2{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(153deg)}
+}
+
+/*3rd animation progres*/
+.mask .fill-3{
+    clip: rect(0px, 150px 150px, 0px);
+    background-color: var(--primary-color);
+}
+.mask.full-3,
+.circle .fill-3{
+    animation: fill-3 ease-in-out 3s;
+    transform: rotate(133deg);
+}
+@keyframes fill-3{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(133deg)}
+}
+
+/*4th animation progres*/
+.mask .fill-4{
+    clip: rect(0px, 150px 150px, 0px);
+    background-color: var(--primary-color);
+}
+.mask.full-4,
+.circle .fill-4{
+    animation: fill-4 ease-in-out 3s;
+    transform: rotate(53deg);
+}
+@keyframes fill-4{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(53deg)}
+}
+.insideCircle{
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    line-height: 120px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 13px;
+    z-index: 100;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--primary-color);
+}

@@ -1,12 +1,106 @@
-@import "MODULES/navbar.css";
-@import "MODULES/contact.css";
+@import "MODULES/index.css";
 @import "MODULES/resume.css";
-@import "MODULES/variables.css";
+@import "MODULES/navbar.css";
+@import "MODULES/resumeMain.css";
+@import "MODULES/biography.css";
 @import "MODULES/contact.css";
 @import "MODULES/map.css";
 @import "MODULES/footer.css";
 @import "MODULES/experiences.css";
 @import "MODULES/button.css";
-@import "message.css";
-@import "MODULES/index.css";
+@import "MODULES/skills.css";
+@import "MODULES/formations.css";
+
+/*variable declaration*/
+:root{
+    --primary-color: rgb(223, 100, 102);
+    --secondary-color: rgb(255,236,232);
+    --tertiary-color: rgb(74, 163, 162);
+    --quaternary-color:rgb(90,189,178);
+    --quinary-color: white;
+}
+
+/* old colors 
+    --primary-color: rgb(201, 60, 102);
+    --secondary-color: rgb(232, 170, 189);
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: Josefin_Sans;
+    
+}
+
+@font-face {
+    font-family: POTRZEBI;
+    src: url(/ASSETS/FONTS/potrzebie/POTRZEBI.TTF);
+}
+
+@font-face {
+    font-family: Josefin_Sans;
+    src: url(/ASSETS/FONTS/fontsForTexts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+html {
+    background-color: var(--secondary-color);
+}
+
+hr {
+    width: 60%;
+    height: 3px;
+    background-color: var(--primary-color);
+    border: none;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-right: 3%;
+    font-family: POTRZEBI;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: end;
+    margin: 0;
+    padding: 5%;
+    width: 100%;
+}
+
+.fontColorPrimary {
+    color: var(--primary-color);
+}
+
+.fontColorSecondary {
+    color: var(--secondary-color);
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

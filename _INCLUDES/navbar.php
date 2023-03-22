@@ -10,6 +10,6 @@
 		<a href="#skills" >Skills</a><br>
 		<a href="#formations" >Formation</a><br>
 		<a href="#experiences" >Experiences</a><br>
-		<a href="#contact" ">Contact</a><br>
+		<a href="#contact">Contact</a><br>
 	</div>
 </nav>

@@ -1,5 +1,5 @@
 <div class="container">
-    <h1>Formulaire de contact</h1>
+    <h2>Contact Me</h2>
     <div class="formBloc">
         <form> <!--action="/_INCLUDES/message.php" method="post"-->
             <label for="firstName">Nom & prénom</label>
@@ -19,5 +19,4 @@
         </form>
     </div>
 </div>
-
 

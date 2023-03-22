@@ -25,7 +25,7 @@
         border-radius: 5px;
         text-transform: uppercase;
         width: max-content;
-        color: var(--quinary);
+        color: var(--secondary-color);
         border: 0;
     }
 

@@ -1,37 +1,16 @@
 @media screen and (max-width: 768px) {
-    .map {
-        width: 92vw;
-        height: 92vw;
-    }
-
     #plan {
         background-color: var(--secondary-color);
-        display: flex;
-        justify-content: center;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    .map {
-        width: 92vw;
-        height: 92vw;
-    }
 
-    #plan {
-        background-color: var(--secondary-color);
-    }
 }
 
-@media screen and (min-width: 992px) {
-    #contactPlan {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .map {
-        width: 40vw;
-        height: 40vw;
-        margin-top: 78px;
-    }
+#plan {
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 50%;
+    margin-top: 60%
 }

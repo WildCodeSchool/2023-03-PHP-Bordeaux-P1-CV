@@ -1,4 +1,4 @@
-.gridContainer {
+.indexBodyGridContainer {
     display: grid;
     grid: 
         "header      header nav"    25vh
@@ -9,7 +9,7 @@
     height: 100vh;
 }
 
-header {
+#indexHeader {
     align-items: center;
     background-color: var(--primary-color);
     display: flex;
@@ -17,13 +17,11 @@ header {
     justify-content: flex-end;
 }
 
-header>h1 {
+#indexHeader>h1 {
     color: white;
-    font-size: 5rem;
-    margin-right: 3%;
 }
 
-nav {
+#indexNav {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -33,7 +31,7 @@ nav {
     padding: 2.5%;
 }
 
-nav>button {
+#indexNav>button {
     background-color: transparent;
     border: solid;
     border-color:  var(--primary-color);
@@ -41,15 +39,15 @@ nav>button {
     width: 100%;
 }
 
-button:hover {
+#indexNav>button:hover {
     transform: rotate(0.03turn);
 }
 
-nav>button>h1:hover {
+#indexNav>button>h1:hover {
     color: var(--quaternary-color);
 }
 
-a {
+#indexNav>button>h1>a {
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -72,7 +70,7 @@ a {
     display: none;
 }
 
-main {
+#indexBody>main {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -81,17 +79,24 @@ main {
     padding: 5%;
 }
 
-iframe {
+#indexBody>main>iframe {
     height: 100%;
     width: 100%;
 }
 
-h3 {
+#indexBody>main>div>h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--primary-color);
+    margin: 5%;
+    padding: 0;
+}
+#indexBody>main>div>h3 {
     text-align: center;
     color: var(--primary-color);
 }
 
-footer {
+#indexBody>footer {
     align-items: center;
     background-color: var(--primary-color);
     display: flex;
@@ -104,7 +109,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    body {
+    #indexBody {
         box-sizing: border-box;
         margin: 0;
     }

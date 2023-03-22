@@ -1,16 +1,15 @@
 @import "variables.css";
 
-.gridContainer {
-    background-color: var(--secondary-color);
+.resumeExperiencesGridContainer {
     display: grid;
     grid:
-        "title title    title" 5%
         "exp1  timeline ."     23.75%
         ".     timeline exp2"  23.75%
         "exp3  timeline ."     23.75%
         ".     timeline exp4"  23.75%
-      / 100fr  1fr      100fr;
+      / 1fr    .01fr    1fr;
     height: 100%;
+    width: 90%;
 }
 
 .textContainer {
@@ -20,21 +19,22 @@
 }
 
 .box {
-    background-color: var(--quaternary-color);
+    background-color: var(--primary-color);
     border: solid;
     border-color: var(--primary-color);
     border-radius: 6px;
     border-width: 3px;
-    color: var(--primary-color);
     padding-left: 5%;
     padding-right: 5%;
 }
 
-.box>h1 {
-    color: var(--primary-color)
+.box>h3 {
+    color: var(--secondary-color);
+    font-size: 2rem;
 }
 .box>p {
-    color: var(--tertiary-color)
+    text-align: start;
+    color: var(--secondary-color)
 }
 
 .connector {
@@ -42,14 +42,6 @@
     border-color: var(--primary-color);
     padding: 0;
     width: 100%;
-}
-
-
-#title {
-    color: var(--primary-color);
-    display: flex;
-    grid-area: title;
-    justify-content: center;
 }
 
 #timeline {
@@ -72,5 +64,3 @@
 #exp4 {
     grid-area: exp4;
 }
-
-

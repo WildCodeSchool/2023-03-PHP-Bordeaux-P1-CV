@@ -1,89 +1,106 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
+#resumeBody {
     margin: auto 0;
     height: 100%;
-    background-color: var(--primary-color);
-    color: var(--quinary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.bodyGridContainer {
+#resumeBody>h1 {
+    font-size: 10rem;
+    color: var(--primary-color);
+}
+
+#resumeBody>main {
+    margin: 5%;
     display: grid;
-    grid:
-        "header"              8vh
-        "biography"           auto
-        "softSkillsFormation" auto
-        "experience"          auto
-        "contactPlan"         auto
-        "footer"              10vh
-        /1fr;
-    height: 100vh;
+    grid: 
+        "biography    biography"    auto
+        "skills       formations"   auto
+        "experiences  experiences"  auto
+        "contact      plan"         auto
+        /1fr          1fr;
+    height: 100%;
+    grid-gap: 1%;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
-header {
-    grid-area: header;
-}
-
-section, footer {
-    font-family: Josefin_Sans, Helvetica, sans-serif;
-}
-
-#biography, #softSkills, #formation, #experience, #contactPlan  {
-    background-color: var(--secondary-color);
-    margin: 10px;
-}
-
-@font-face {
-    font-family: Josefin_Sans;
-    src: url(/ASSETS/FONTS/fontsForTexts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+#resumeBody>footer {
+    background-color: var(--primary-color);
+    min-height: 5%;
+    width: 100%;
+    font-size: 2rem;;
+    padding: 2rem;
+    text-align: end;
 }
 
 #biography {
     grid-area: biography;
 }
 
-#softSkillsFormation {
-    grid-area: softSkillsFormation;
-    display: grid;
-    grid: 
-    "softSkills formation" auto
-    /1fr 1fr;
-    grid-area: softSkillsFormation;
+#biography>p {
+    font-size: 2rem;
 }
 
-#softSkills {
-    grid-area: softSkills;
+
+#skills {
+    grid-area: skills;
 }
 
-#formation {
-    grid-area: formation;
+#formations {
+    grid-area: formations;
 }
 
-#experience {
-    grid-area: experience;
-}
-
-#contactPlan {
-    grid-area: contactPlan;
-    display: grid;
-    grid: 
-    "contact plan" auto
-    /1fr 1fr;
-    grid-area: contactPlan;
+#experiences {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: experiences;
 }
 
 #contact {
     grid-area: contact;
 }
+
 #plan {
     grid-area: plan;
+    width: 100%;
+    height: 100%;
 }
 
-footer {
-    grid-area: footer;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
     #softSkillsFormation {

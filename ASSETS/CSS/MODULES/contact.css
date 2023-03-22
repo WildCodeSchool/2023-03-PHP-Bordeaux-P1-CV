@@ -124,7 +124,7 @@
     form {
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 100%;
 
     }
 
@@ -169,7 +169,7 @@
     }
 
     input[type=submit]:hover {
-        background-color: var(--tertiary-color);
+        background-color: var(--secondary-color);
     }
 
     label {
@@ -182,4 +182,3 @@
         margin-left: 20px;
     }
 }
-
