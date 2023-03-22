@@ -55,6 +55,7 @@
 #timeline {
     background-color: var(--primary-color);
     grid-area: timeline;
+    margin-top: 50px;
 }
 
 #exp1 {
