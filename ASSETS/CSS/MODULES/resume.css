@@ -70,17 +70,17 @@
     height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+#resumeBody>#scrollUp
+{
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    bottom :10px;
+    right: 5px;
+}
+ html {
+     scroll-behavior: smooth;
+ }
 
 
 
