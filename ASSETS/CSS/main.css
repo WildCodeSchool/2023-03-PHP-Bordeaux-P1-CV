@@ -28,7 +28,7 @@
 * {
     box-sizing: border-box;
     font-family: Josefin_Sans;
-    
+    margin: auto 0;
 }
 
 @font-face {
@@ -64,6 +64,10 @@ h2 {
     margin: 0;
     padding: 5%;
     width: 100%;
+}
+
+.bccColorPrimary {
+    background-color: var(--primary-color);
 }
 
 .fontColorPrimary {
