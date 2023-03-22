@@ -20,8 +20,8 @@
             <button><h2><a href="resume.php#contact">CONTACT ME</a></h2></button>
         </nav>
         <section id="pinkPanther">
-            <img id="pantherDesktop"src="ASSETS/IMAGES/pinkPanther6.webp" alt="The Pink Panther Standing up, showing off his pretty website.">
-            <img id="pantherMobile"src="ASSETS/IMAGES/pantherSide.png" alt="The Pink Panther Standing up, showing off his pretty website.">
+            <img id="pantherDesktop" src="ASSETS/IMAGES/pinkPanther6.webp" alt="The Pink Panther Standing up, showing off his pretty website.">
+            <img id="pantherMobile" src="ASSETS/IMAGES/pantherSide.png" alt="The Pink Panther Standing up, showing off his pretty website.">
             
         </section>
         <main>
@@ -32,9 +32,8 @@
             <div>
                 <h2>Jaguar Longiligne et Agile</h2>
                 <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, accusantium officiis commodi iusto hic neque, odio exercitationem id molestias ea culpa eveniet optio corporis veritatis eaque enim! Dolorum, illum? Minus.</h3>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, accusantium officiis commodi iusto hic neque, odio exercitationem id molestias ea culpa eveniet optio corporis veritatis eaque enim! Dolorum, illum? Minus.</h3>
             </div>
         </main>
-        <footer class="bccColorPrimary"><p>Mentions legales</p></footer>
+        <footer class="bccColorPrimary"><p>Mentions legales: Site conçu à des fins pedagogique.</p></footer>
     </body>
 </html>
