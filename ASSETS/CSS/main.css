@@ -8,6 +8,7 @@
 @import "MODULES/button.css";
 @import "MODULES/skills.css";
 @import "MODULES/formations.css";
+@import "MODULES/message.css";
 
 /*variable declaration*/
 :root{

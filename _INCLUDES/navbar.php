@@ -5,7 +5,7 @@
 	</a>
 	<br>
 	<div class="navbarResponsive">
-		<a href="../index.php">Accueil</a><br>
+		<a href="index.php#indexNav">Accueil</a><br>
 		<a href="#biography" >Biographie</a><br>
 		<a href="#skills" >Skills</a><br>
 		<a href="#formations" >Formation</a><br>

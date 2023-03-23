@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="ASSETS/CSS/main.css">
+	<link rel="stylesheet" href="ASSETS/CSS/MODULES/message.css">
 	<link rel="icon" type="image/x-icon" href="ASSETS/IMAGES/favicon_io/favicon.ico">
 	<title>Curriculum Felidae</title>
 </head>
@@ -52,11 +53,6 @@
 			check = true;
 			y.style.display = "none";
 		}
-	}
-
-	//Send Message
-	function displayMessage() {
-		alert("Message Envoyé !");
 	}
 </script>
 <script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
