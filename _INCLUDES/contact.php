@@ -1,5 +1,5 @@
 <div class="container">
-    <h2>Contact Me</h2>
+    <h2>Contactez Moi</h2>
     <div class="formBloc">
         <form action="message.php#message" method="post" target="_blank">
             <label for="firstName">Nom & prénom</label>
