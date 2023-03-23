@@ -183,6 +183,10 @@
     footer>p {
         text-align: center;
     }
+
+    footer {
+        padding: 40px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -217,5 +221,9 @@
     #indexHeader>h1 {
         font-size: 5rem;
         margin: 0;
+    }
+
+    footer {
+        padding: 40px;
     }
 }
