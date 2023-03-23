@@ -1,7 +1,7 @@
 <div class="bccColorPrimary" id="topNav">
 	<a class="fontColorSecondary" href="../index.php" id="logoResponsive">The Pink Panther</a>
 	<a href="javascript:void(0);" id="icon" onclick="displayNavBar()">
-		<i class="fa-solid fa-bars-staggered"></i>
+		<i class="fa-solid fa-bars-staggered fa-2xl"></i>
 	</a>
 </div>
 
