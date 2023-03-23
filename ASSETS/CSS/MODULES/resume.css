@@ -71,7 +71,22 @@
 }
 
 
+
+#resumeBody>#scrollUp
+{
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    bottom :10px;
+    right: 5px;
+}
+
+ html {
+     scroll-behavior: smooth;
+ }
+
 @media screen and (max-width: 480px) {
+
 
     #resumeBody>h1 {
         font-size: 5rem;
