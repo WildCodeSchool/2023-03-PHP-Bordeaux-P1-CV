@@ -134,7 +134,7 @@
 
     #indexNav {
         margin: 0;
-        width: 100%;
+        margin-top: -95%;
     }
 
     #indexNav>button>h2>a {
@@ -143,10 +143,6 @@
 
     #indexBody>main {
         grid-area: main;
-    }
-
-    #indexBody>main>div {
-       margin-left: 25%;
     }
 
     #indexBody>footer {
@@ -166,14 +162,9 @@
         display: none;
     }
 
-    #pinkPanther {
-        position: absolute;
-        margin-top: 170%;
-    }
-
     #pantherMobile {
-        height: 50%;
         display: initial;
+        height: 50%;
         transform: scaleX(-1);
     }
 
@@ -185,6 +176,14 @@
     video {
         width: 100%;
     }
+
+    footer>p {
+        text-align: center;
+    }
+
+    footer {
+        padding: 40px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -193,6 +192,10 @@
         margin: 0;
         display: flex;
         flex-direction: column;
+    }
+
+    #indexNav {
+        margin: -40% 0 0 0;
     }
 
     #pantherDesktop {
@@ -207,6 +210,17 @@
 
     video {
         width: 90%;
-        margin-top: -300px;
+    }
+
+    #indexHeader {
+        justify-content: center;
+    }
+    #indexHeader>h1 {
+        font-size: 5rem;
+        margin: 0;
+    }
+
+    footer {
+        padding: 40px;
     }
 }

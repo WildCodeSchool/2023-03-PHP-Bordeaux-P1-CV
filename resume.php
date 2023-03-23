@@ -23,6 +23,13 @@
 	<iframe id="plan" src="https://www.google.com/maps/d/u/0/embed?mid=1ewpYDVPR7sIO7LbN4R1LwBRNyEPcv_c&ehbc=2E312F"></iframe>
 </main>
 
+
+        <div id="scrollUp">
+            <a href="#top"> <i class="fa-solid fa-arrow-trend-up fa-beat fa-2xl" style="color: #DF6466;"></i> <br>To Top</a>
+        </div>
+
+
+
 <footer class="fontColorSecondary">
 	<div>
 		<a class="button" id="cv" href="ASSETS/RESSOURCES/cv.pdf" type="submit" target="_blank">Afficher CV </a>
@@ -30,7 +37,55 @@
 	</div>
 	<p>Mentions Légales: Site conçu à des fins pédagogique</p>
 </footer>
-<script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
+
+
+<script>
+	//Navbar
+	const x = document.querySelector("#myTopnav");
+	const y = document.querySelector("#navbarResponsive");
+	let check = true;
+
+	function myFunction() {
+		console.log(check)
+		if (check === true) {
+			check = false;
+			x.style.height = "auto";
+			y.style.display = "initial";
+
+
+		  //Send Message
+			function displayMessage()
+			{
+				alert("Message Envoyé !");
+			}
+        </script>
+
+
+
+        <script>
+            // Execute function when the window is scrolled
+            window.onscroll = function () { scrollFunction() };
+
+            //When scroll down to 20pxl the button is revealed
+            function scrollFunction() {
+                // Get the button
+                var mybutton = document.getElementById("scrollUp");
+
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.opacity = 1;
+                    mybutton.style.visibility = "visible";
+                } else {
+                    mybutton.style.opacity = 0;
+                    mybutton.style.visibility = "hidden";
+                }
+            }
+
+
+        </script>
+        <script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
 </body>
+
 
 </html>
