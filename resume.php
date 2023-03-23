@@ -12,10 +12,8 @@
 
 <body id="resumeBody">
 <header class="fontColorSecondary"><?php include "_INCLUDES/navbar.php" ?></header>
-
-        <h1> The Pink Panther </h1>
-        <hr>
-
+	<h1> The Pink Panther </h1>
+	<hr>
 <main>
 	<section class="fontColorPrimary" id="biography"><?php include "_INCLUDES/biography.php" ?></section>
 	<section class="fontColorPrimary" id="skills"><?php include "_INCLUDES/skills.php" ?></section>
@@ -35,23 +33,16 @@
 </footer>
 
 <script>
-	//Navbar
-	const x = document.querySelector("#myTopnav");
-	const y = document.querySelector(".navbarResponsive");
-	let check = true;
-
-	function myFunction() {
-		console.log(check)
-		if (check === true) {
-			check = false;
-			x.style.height = "auto";
-			y.style.display = "initial";
-
-		} else {
-			x.style.height = "7vh";
-			check = true;
-			y.style.display = "none";
+	function displayNavBar() {
+		let header = document.getElementById("topNav")
+		let navbar = document.getElementById("navbarResponsive");
+		if (navbar.style.display === "none") {
+			navbar.style.display = "block";
+			header.style.height = "auto";
+			return;
 		}
+		navbar.style.display = "none"
+		header.style.height = "8vh";
 	}
 </script>
 <script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>

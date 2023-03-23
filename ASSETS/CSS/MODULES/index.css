@@ -99,14 +99,11 @@
 }
 
 #indexBody>main>div>h3 {
-
     color: var(--primary-color);
 }
 
 #indexBody>footer {
-
     grid-area: footer;
-
     width: 100%;
     height: 100%;
     text-align: center;

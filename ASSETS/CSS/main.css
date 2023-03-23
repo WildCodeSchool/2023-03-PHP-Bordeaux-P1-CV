@@ -72,6 +72,10 @@ h2 {
     background-color: var(--primary-color);
 }
 
+.bccColorSecondary {
+    background-color: var(--secondary-color);
+}
+
 .fontColorPrimary {
     color: var(--primary-color);
 }

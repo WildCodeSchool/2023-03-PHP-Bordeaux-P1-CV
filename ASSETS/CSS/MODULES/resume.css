@@ -9,6 +9,7 @@
 
 #resumeBody>header {
     width: 100%;
+    height: 8vh;
 }
 
 #resumeBody>h1 {
@@ -96,6 +97,10 @@
         margin-bottom: 5%;
         font-size: 1rem;
     }
+
+    #resumeBody>h1, #resumeBody>hr {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -135,5 +140,9 @@
     footer {
         display: flex;
         flex-direction: column;
+    }
+
+    #resumeBody>h1, #resumeBody>hr {
+        display: none;
     }
 }
