@@ -1,7 +1,7 @@
 <div class="container">
     <h2>Contact Me</h2>
     <div class="formBloc">
-        <form action="message.php#message" method="post">
+        <form action="message.php#message" method="post" target="_blank">
             <label for="firstName">Nom & prénom</label>
             <input type="text" id="firstName" name="firstName" placeholder="Votre nom et prénom">
 

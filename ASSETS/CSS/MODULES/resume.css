@@ -70,9 +70,6 @@
 
 
 @media screen and (max-width: 480px) {
-    #resumeBody {
-        margin: 5%;
-    }
 
     #resumeBody>h1 {
         font-size: 5rem;

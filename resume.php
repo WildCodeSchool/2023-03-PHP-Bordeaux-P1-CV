@@ -37,7 +37,7 @@
 <script>
 	//Navbar
 	const x = document.querySelector("#myTopnav");
-	const y = document.querySelector(".navbarResponsive");
+	const y = document.querySelector("#navbarResponsive");
 	let check = true;
 
 	function myFunction() {
