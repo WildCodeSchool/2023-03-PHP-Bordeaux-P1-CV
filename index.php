@@ -21,7 +21,7 @@
             <button><h2><a href="resume.php#skills">SKILLS</a></h2></button>
             <button><h2><a href="resume.php#formations">FORMATIONS</a></h2></button>
             <button><h2><a href="resume.php#experiences">EXPERIENCES</a></h2></button>
-            <button><h2><a href="resume.php#contact">CONTACT ME</a></h2></button>
+            <button><h2><a href="resume.php#contact">CONTACTEZ MOI</a></h2></button>
         </nav>
 
         <main>
