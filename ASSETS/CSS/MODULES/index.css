@@ -128,6 +128,7 @@
     #indexBody>header {
         display: flex;
         grid-area: header;
+        width: 100%;
     }
 
     #indexBody header>h1 {
@@ -136,6 +137,7 @@
 
     #indexNav {
         margin: 0;
+        width: 100%;
     }
 
     #indexNav>button>h2>a {
@@ -144,6 +146,10 @@
 
     #indexBody>main {
         grid-area: main;
+    }
+
+    #indexBody>main>div {
+       margin-left: 25%;
     }
 
     #indexBody>footer {
@@ -162,7 +168,12 @@
     #pantherDesktop {
         display: none;
     }
-    
+
+    #pinkPanther {
+        position: absolute;
+        margin-top: 170%;
+    }
+
     #pantherMobile {
         height: 50%;
         display: initial;
@@ -176,7 +187,6 @@
 
     video {
         width: 100%;
-        margin-top: -300px;
     }
 }
 
