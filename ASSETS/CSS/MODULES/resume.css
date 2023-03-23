@@ -98,7 +98,7 @@
         grid-area: contactPlan;
     }
 
-    .bodyGridContainer {
+    .indexBodyGridContainer {
         display: grid;
         grid:
         "header"              auto
