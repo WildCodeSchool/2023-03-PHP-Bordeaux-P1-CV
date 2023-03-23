@@ -1,15 +1,23 @@
-@import "variables.css";
+#experiences {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: experiences;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 .resumeExperiencesGridContainer {
     display: grid;
     grid:
-        "exp1  timeline ."     23.75%
-        ".     timeline exp2"  23.75%
-        "exp3  timeline ."     23.75%
-        ".     timeline exp4"  23.75%
+        "exp1  timeline ."     25%
+        ".     timeline exp2"  25%
+        "exp3  timeline ."     25%
+        ".     timeline exp4"  25%
       / 1fr    .01fr    1fr;
     height: 100%;
     width: 90%;
+    padding-bottom: 5%;
 }
 
 .textContainer {
@@ -45,8 +53,9 @@
 }
 
 #timeline {
-    background-color: var(--primary-color);
     grid-area: timeline;
+    width: 100%;
+    height: 100%
 }
 
 #exp1 {
@@ -63,4 +72,68 @@
 
 #exp4 {
     grid-area: exp4;
+}
+
+
+@media screen and (max-width: 480px) {
+    .resumeExperiencesGridContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .box {
+        margin-bottom: 5%;
+        padding: 5%;
+    }
+
+    .box>h3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .connector {
+        width: 0%;
+        border: none;
+    }
+
+    #timeline {
+        display: hidden;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    .resumeExperiencesGridContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .box {
+        margin-bottom: 5%;
+        padding: 5%;
+    }
+
+    .box>h3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .connector {
+        width: 0%;
+        border: none;
+    }
+
+    #timeline {
+        display: hidden;
+    }
+
 }

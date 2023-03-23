@@ -1,13 +1,12 @@
 @import "MODULES/index.css";
 @import "MODULES/resume.css";
 @import "MODULES/navbar.css";
-@import "MODULES/biography.css";
-@import "MODULES/contact.css";
-@import "MODULES/map.css";
-@import "MODULES/experiences.css";
-@import "MODULES/button.css";
 @import "MODULES/skills.css";
 @import "MODULES/formations.css";
+@import "MODULES/experiences.css";
+@import "MODULES/contact.css";
+@import "MODULES/map.css";
+@import "MODULES/button.css";
 
 /*variable declaration*/
 :root{
@@ -16,6 +15,9 @@
     --tertiary-color: rgb(74, 163, 162);
     --quaternary-color:rgb(90,189,178);
     --quinary-color: white;
+
+    --phoneWidth: 480px;
+    --tabletWidth: 768px;
 }
 
 /* old colors 
@@ -48,6 +50,8 @@ hr {
     height: 3px;
     background-color: var(--primary-color);
     border: none;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 h1 {
@@ -66,6 +70,7 @@ h2 {
 
 .bccColorPrimary {
     background-color: var(--primary-color);
+    padding: 40px;
 }
 
 .fontColorPrimary {

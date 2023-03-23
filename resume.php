@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="ASSETS/CSS/main.css">
+	<link rel="stylesheet" href="ASSETS/CSS/MODULES/message.css">
 	<link rel="icon" type="image/x-icon" href="ASSETS/IMAGES/favicon_io/favicon.ico">
 	<title>Curriculum Felidae</title>
 </head>
@@ -12,9 +13,8 @@
 <body id="resumeBody">
 <header class="fontColorSecondary"><?php include "_INCLUDES/navbar.php" ?></header>
 
-<hr>
-<h1> The Pink Panther </h1>
-<hr>
+        <h1> The Pink Panther </h1>
+        <hr>
 
 <main>
 	<section class="fontColorPrimary" id="biography"><?php include "_INCLUDES/biography.php" ?></section>
@@ -45,7 +45,7 @@
 <script>
 	//Navbar
 	const x = document.querySelector("#myTopnav");
-	const y = document.querySelector(".navbarResponsive");
+	const y = document.querySelector("#navbarResponsive");
 	let check = true;
 
 	function myFunction() {
@@ -85,29 +85,9 @@
 
 
         </script>
-
-
         <script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
-
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-
-    </body>
-=======
-		} else {
-			x.style.height = "7vh";
-			check = true;
-			y.style.display = "none";
-		}
-	}
-
-	//Send Message
-	function displayMessage() {
-		alert("Message Envoyé !");
-	}
-</script
-
-<script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
 </body>
 
 

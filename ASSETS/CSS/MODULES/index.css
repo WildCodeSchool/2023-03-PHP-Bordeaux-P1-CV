@@ -49,7 +49,7 @@
 }
 
 #indexNav>button>h2>a {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -113,6 +113,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--quinary-color);
 
 }
 
@@ -120,21 +121,35 @@
     #indexBody {
         box-sizing: border-box;
         margin: 0;
-    }
-
-    .gridContainer {
-        display: grid;
-        grid: 
-        "header" 20vh
-        "main"   auto
-        "main"   auto
-        "footer" 10vh
-        /1fr;
-        height: 100vh;
-    }
-
-    header {
         display: flex;
+        flex-direction: column;
+    }
+
+    #indexBody>header {
+        display: flex;
+        grid-area: header;
+        width: 100%;
+    }
+
+    #indexBody header>h1 {
+        font-size: 2.5rem;
+    }
+
+    #indexNav {
+        margin: 0;
+        margin-top: -95%;
+    }
+
+    #indexNav>button>h2>a {
+        font-size: 2rem;
+    }
+
+    #indexBody>main {
+        grid-area: main;
+    }
+
+    #indexBody>footer {
+        grid-area: footer;
     }
 
     header>h1 {
@@ -149,15 +164,58 @@
     #pantherDesktop {
         display: none;
     }
-    
+
     #pantherMobile {
-        height: 50%;
         display: initial;
+        height: 50%;
         transform: scaleX(-1);
     }
 
     main {
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    footer>p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #indexBody {
+        box-sizing: border-box;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #indexNav {
+        margin: -40% 0 0 0;
+    }
+
+    #pantherDesktop {
+        display: none;
+    }
+
+    #pantherMobile {
+        height: 50%;
+        display: initial;
+        transform: scaleX(-1);
+    }
+
+    video {
+        width: 90%;
+    }
+
+    #indexHeader {
+        justify-content: center;
+    }
+    #indexHeader>h1 {
+        font-size: 5rem;
+        margin: 0;
     }
 }

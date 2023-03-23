@@ -1,7 +1,7 @@
 <div class="container">
     <h2>Contact Me</h2>
     <div class="formBloc">
-        <form> <!--action="/_INCLUDES/message.php" method="post"-->
+        <form action="message.php#message" method="post" target="_blank">
             <label for="firstName">Nom & prénom</label>
             <input type="text" id="firstName" name="firstName" placeholder="Votre nom et prénom">
 
@@ -14,8 +14,7 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" placeholder="Votre message" style="height:200px"></textarea>
 
-			<button class="button" type="submit" name="submit" onclick="displayMessage()" value="Display alert box">Envoyer votre message</button>
-
+			<button class="button" type="submit" name="submit">Envoyer votre message</button>
         </form>
     </div>
 </div>

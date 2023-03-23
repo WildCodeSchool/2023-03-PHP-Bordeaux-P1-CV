@@ -1,22 +1,18 @@
 <hr>
 <h2>Experiences</h2>
 <section class="resumeExperiencesGridContainer">
-    <div id="timeline"></div>
-
-
+    <div class="bccColorPrimary" id="timeline"></div>
 
     <div class="textContainer" id="exp1">
         <div class="box">
-        <h3>Peintre</h3>
-			<P>1969 - 1978</P>
+        	<h3>Peintre</h3>
+			<p>1969 - 1978</p>
 			<p>Nombreux chantier improvisé !!!!<br>
 			Peinture à l'eau à l'huile,
 			tous support (mur, plafond, sol et les gens...)</p>
         </div>
         <div class="connector"> </div>
     </div>
-
-
 
     <div class="textContainer" id="exp2">
         <div class="connector"> </div>
@@ -27,8 +23,6 @@
 		</div>
     </div>
 
-
-
     <div class="textContainer" id="exp3">
     <div class="box">
 			<h3>Prof de sport</h3>
@@ -37,8 +31,6 @@
 		</div>
         <div class="connector"> </div>
     </div>
-
-
 
     <div class="textContainer" id="exp4">
         <div class="connector"> </div>
