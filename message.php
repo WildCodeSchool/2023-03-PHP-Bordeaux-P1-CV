@@ -25,6 +25,7 @@
 		}
 		?></div>
 	</div>
+	<div id="imageMessage"><img src="ASSETS/IMAGES/panther-message.png" alt="logo pink panther" ></div>
 </body>
 </html>
 
