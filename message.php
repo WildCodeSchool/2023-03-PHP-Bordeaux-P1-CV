@@ -12,7 +12,7 @@
 
 <body >
 	<div class="messageContent" id="message">
-		<h1>Message Envoyé !</h1>
+		<h1>Message Transmis !</h1>
 		<div class="messageReturn"><?php
 		if (isset($_POST['submit'])) {
 			$firstName = $_POST['firstName'];
@@ -20,7 +20,7 @@
 			$subject = $_POST['subject'];
 			$message = $_POST['message'];
 			// afficher le résultat
-			echo 'Merci ' . $firstName . ' ' . ' de m\'avoir contacté à propos de ' . "$subject" . '<br>';
+			echo 'Merci ' . $firstName . ' ' . ' de m\'avoir contacté à propos de : ' . '<br>' . $subject . '.' . '<br>' .'<br>';
 			echo 'Je vous contacterai à l’adresse ' . $email . ' si votre projet est très lucratif !!! ';
 		}
 		?></div>
