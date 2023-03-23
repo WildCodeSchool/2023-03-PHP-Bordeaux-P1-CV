@@ -1,5 +1,6 @@
 #contact {
     grid-area: contact;
+    margin-bottom: 5%;
 }
 
 form {
@@ -18,7 +19,6 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-;
 }
 
 h1 {

@@ -11,7 +11,7 @@
 </head>
 
 <body id="resumeBody">
-<header class="fontColorSecondary"><?php include "_INCLUDES/navbar.php" ?></header>
+	<nav class="fontColorSecondary" id="navbar"><?php include "_INCLUDES/navbar.php" ?></nav>
 	<h1> The Pink Panther </h1>
 	<hr>
 <main>
@@ -20,31 +20,16 @@
 	<section class="fontColorPrimary" id="formations"><?php include "_INCLUDES/formations.php" ?></section>
 	<section class="fontColorPrimary" id="experiences"><?php include "_INCLUDES/experiences.php" ?></section>
 	<section class="fontColorPrimary" id="contact"><?php include "_INCLUDES/contact.php" ?></section>
-	<iframe id="plan"
-			src="https://www.google.com/maps/d/u/0/embed?mid=1ewpYDVPR7sIO7LbN4R1LwBRNyEPcv_c&ehbc=2E312F"></iframe>
+	<iframe id="plan" src="https://www.google.com/maps/d/u/0/embed?mid=1ewpYDVPR7sIO7LbN4R1LwBRNyEPcv_c&ehbc=2E312F"></iframe>
 </main>
 
 <footer class="fontColorSecondary">
-	<p>Mentions Légales: Site conçu à des fins pédagogique</p>
 	<div>
 		<a class="button" id="cv" href="ASSETS/RESSOURCES/cv.pdf" type="submit" target="_blank">Afficher CV </a>
 		<a class="button" id="cv" href="ASSETS/RESSOURCES/cv.pdf" download>Télécharger CV </a>
 	</div>
+	<p>Mentions Légales: Site conçu à des fins pédagogique</p>
 </footer>
-
-<script>
-	function displayNavBar() {
-		let header = document.getElementById("topNav")
-		let navbar = document.getElementById("navbarResponsive");
-		if (navbar.style.display === "none") {
-			navbar.style.display = "block";
-			header.style.height = "auto";
-			return;
-		}
-		navbar.style.display = "none"
-		header.style.height = "8vh";
-	}
-</script>
 <script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
 </body>
 

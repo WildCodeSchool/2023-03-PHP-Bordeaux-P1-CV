@@ -1,19 +1,12 @@
 #resumeBody {
-    margin: auto 0;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#resumeBody>header {
-    width: 100%;
-    height: 8vh;
-}
-
 #resumeBody>h1 {
-    font-size: 5rem;
+    font-size: 10rem;
     color: var(--primary-color);
 }
 
@@ -31,14 +24,7 @@
     grid-gap: 1%;
     padding-right: 15%;
     padding-left: 15%;
-}
-
-#resumeBody>footer {
-    background-color: var(--primary-color);
-    min-height: 5%;
-    width: 100%;
-    padding: 2rem;
-    text-align: end;
+    margin-bottom: 5%
 }
 
 #biography  {
@@ -67,13 +53,23 @@
     border: none;
     width: 100%;
     height: 100%;
+    padding-bottom: 5%
+}
+
+#resumeBody>footer {
+    background-color: var(--primary-color);
+    min-height: 5%;
+    width: 100%;
+    padding: 2rem;
+    text-align: end;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%
 }
 
 
 @media screen and (max-width: 480px) {
-    #resumeBody {
-        margin: 5%;
-    }
 
     #resumeBody>h1 {
         font-size: 5rem;
@@ -86,6 +82,8 @@
         justify-content: center;
         align-items: center;
         margin: 0;
+        margin-left: 5%;
+        margin-right: 5%;
         padding: 0;
     }
     
@@ -101,13 +99,21 @@
     #resumeBody>h1, #resumeBody>hr {
         display: none;
     }
+
+    #resumeBody>main>#plan {
+        margin-bottom: 5%;
+    }
+
+    #resumeBody>footer {
+        flex-direction: column;
+    }
+    
+    #resumeBody>footer>div {
+        margin-bottom: 10%;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
-    #resumeBody {
-        margin: 5%;
-    }
-
     #resumeBody>h1 {
         font-size: 5rem;
         color: var(--primary-color);
@@ -119,6 +125,8 @@
         justify-content: center;
         align-items: center;
         margin: 0;
+        margin-left: 5%;
+        margin-right: 5%;
         padding: 0;
     }
     
@@ -133,7 +141,7 @@
 
     #plan {
         width: 100%;
-        height: 100%;
+        height: 150%;
         margin-bottom: 5%;;
     }
 
@@ -144,5 +152,13 @@
 
     #resumeBody>h1, #resumeBody>hr {
         display: none;
+    }
+
+    #resumeBody>footer {
+        flex-direction: column;
+    }
+    
+    #resumeBody>footer>div {
+        margin-bottom: 10%;
     }
 }

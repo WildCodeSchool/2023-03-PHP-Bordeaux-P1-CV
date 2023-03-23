@@ -32,8 +32,7 @@
     border-color: var(--primary-color);
     border-radius: 6px;
     border-width: 3px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 5%;
 }
 
 .box>h3 {

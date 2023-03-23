@@ -1,4 +1,24 @@
-@media screen and (max-width: 768px) {
+.button {
+    padding: 15px;
+    background-color: var(--quaternary-color);
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: max-content;
+    color: var(--secondary-color);
+    border: 0;
+}
+
+.button:hover {
+    background-color: var(--tertiary-color);
+}
+
+#cv {
+    text-transform: lowercase;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 480px) {
     .button {
         text-decoration: none;
         padding: 10px;
@@ -6,11 +26,7 @@
         border-radius: 5px;
         text-transform: uppercase;
         width: max-content;
-        color: var(--quinary);
-    }
-
-    .button:hover {
-        background-color: var(--tertiary-color);
+        color: var(--secondary-color);
     }
 
     #cv {
@@ -20,41 +36,15 @@
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
     .button {
         text-decoration: none;
-        padding: 15px;
-        background-color: var(--quaternary-color);
-        border-radius: 5px;
-        text-transform: uppercase;
-        width: max-content;
-        color: var(--quinary);
-    }
-
-    .button:hover {
-        background-color: var(--tertiary-color);
-    }
-
-    #cv {
-        text-transform: lowercase;
-        text-decoration: none;
-        margin-left: 5px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .button {
         padding: 15px;
         background-color: var(--quaternary-color);
         border-radius: 5px;
         text-transform: uppercase;
         width: max-content;
         color: var(--secondary-color);
-        border: 0;
-    }
-
-    .button:hover {
-        background-color: var(--tertiary-color);
     }
 
     #cv {
