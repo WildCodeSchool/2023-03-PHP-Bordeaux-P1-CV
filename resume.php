@@ -26,15 +26,13 @@
 			src="https://www.google.com/maps/d/u/0/embed?mid=1ewpYDVPR7sIO7LbN4R1LwBRNyEPcv_c&ehbc=2E312F"></iframe>
 </main>
 
-<<<<<<< HEAD
+
         <div id="scrollUp">
             <a href="#top"> <i class="fa-solid fa-arrow-trend-up fa-beat fa-2xl" style="color: #DF6466;"></i> <br>To Top</a>
         </div>
 
-        <footer class="fontColorSecondary">Mentions Légales: Site conçu à des fins pédagogique
 
-        </footer>
-=======
+
 <footer class="fontColorSecondary">
 	<p>Mentions Légales: Site conçu à des fins pédagogique</p>
 	<div>
@@ -42,7 +40,7 @@
 		<a class="button" id="cv" href="ASSETS/RESSOURCES/cv.pdf" download>Télécharger CV </a>
 	</div>
 </footer>
->>>>>>> 739f5b7ed46a0e28f0e8b146b0ed69413cdd3523
+
 
 <script>
 	//Navbar
@@ -57,7 +55,7 @@
 			x.style.height = "auto";
 			y.style.display = "initial";
 
-<<<<<<< HEAD
+
 		  //Send Message
 			function displayMessage()
 			{
@@ -107,9 +105,10 @@
 	function displayMessage() {
 		alert("Message Envoyé !");
 	}
-</script>
+</script
+
 <script src="https://kit.fontawesome.com/837a298307.js" crossorigin="anonymous"></script>
 </body>
->>>>>>> 739f5b7ed46a0e28f0e8b146b0ed69413cdd3523
+
 
 </html>
