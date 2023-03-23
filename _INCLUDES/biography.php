@@ -1,4 +1,4 @@
-<h2>Biography</h2>
+<h2>Biographie</h2>
 <p>
     Après quelques années dans l'ombre je souhaite revenir sur
     le devant de la scène en ajoutant à la liste de mes succès le casse du siècle.
