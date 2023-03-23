@@ -44,8 +44,8 @@
     font-size: 2rem;
 }
 
-#biography>p {
-    font-size: 2rem;
+#biography>hr {
+    margin: 0 auto;
 }
 
 #plan {
@@ -68,10 +68,7 @@
     margin-top: 5%
 }
 
-
-
-#resumeBody>#scrollUp
-{
+#resumeBody>#scrollUp {
     display: block;
     position: fixed;
     visibility: hidden;
