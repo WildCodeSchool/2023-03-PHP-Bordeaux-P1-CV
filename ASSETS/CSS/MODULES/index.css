@@ -4,7 +4,7 @@
         "header      header nav"    25vh
         "pinkPanther main   nav"    auto
         "pinkPanther main   nav"    auto
-        "pinkPanther footer footer" 10vh
+        "footer footer footer" 10vh
        /1fr          2fr    2fr;
     height: 100vh;
 }
@@ -14,7 +14,8 @@
     display: flex;
     grid-area: header;
     justify-content: flex-end;
-    height: 100%
+    height: 100%;
+    border-radius: 0 0 1rem 0;
 }
 
 #indexHeader>h1 {
@@ -64,9 +65,11 @@
 }
 
 #pantherDesktop {
-    height: 97%;
     transform: scaleX(-1);
-    clip: rect(0px, 0px, 1000px, 0px);
+    position: absolute;
+    bottom: 0px;
+    height: 83%;
+    left: -70px
 }
 
 #pantherMobile {
@@ -108,9 +111,9 @@
     height: 100%;
     text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
     color: var(--quinary-color);
+    padding-right: 5%;
 
 }
 
