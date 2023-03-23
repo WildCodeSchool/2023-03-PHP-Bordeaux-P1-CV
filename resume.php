@@ -25,7 +25,7 @@
 
 
         <div id="scrollUp">
-            <a href="#top"> <i class="fa-solid fa-arrow-trend-up fa-beat fa-2xl" style="color: #DF6466;"></i> <br>To Top</a>
+            <a href="#top"> <i class="fa-solid fa-arrow-trend-up fa-beat fa-2xl" style="color: #DF6466;"></i></a>
         </div>
 
 
