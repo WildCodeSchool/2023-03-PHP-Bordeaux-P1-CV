@@ -1,5 +1,23 @@
 @media screen and (max-width: 768px) {
+    .button {
+        text-decoration: none;
+        padding: 10px;
+        background-color: var(--quaternary-color);
+        border-radius: 5px;
+        text-transform: uppercase;
+        width: max-content;
+        color: var(--quinary);
+    }
 
+    .button:hover {
+        background-color: var(--tertiary-color);
+    }
+
+    #cv {
+        text-transform: lowercase;
+        text-decoration: none;
+        margin-left: 5px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -16,6 +34,12 @@
     .button:hover {
         background-color: var(--tertiary-color);
     }
+
+    #cv {
+        text-transform: lowercase;
+        text-decoration: none;
+        margin-left: 5px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -31,5 +55,11 @@
 
     .button:hover {
         background-color: var(--tertiary-color);
+    }
+
+    #cv {
+        text-transform: lowercase;
+        text-decoration: none;
+        margin-left: 5px;
     }
 }
