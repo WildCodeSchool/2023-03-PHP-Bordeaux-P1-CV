@@ -121,6 +121,10 @@
     #resumeBody>footer>div {
         margin-bottom: 10%;
     }
+
+    #plan {
+        height: 350px;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -170,5 +174,9 @@
     
     #resumeBody>footer>div {
         margin-bottom: 10%;
+    }
+
+    #plan {
+        height: 500px;
     }
 }

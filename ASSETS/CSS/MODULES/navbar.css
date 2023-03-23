@@ -64,6 +64,7 @@
     #navbar>#linksNav>a {
         text-align: start;
         padding-left: 5%;
+        font-size: 1rem;
     }
 }
 
@@ -96,5 +97,6 @@
     #navbar>#linksNav>a {
         text-align: start;
         padding-left: 5%;
+        font-size: 1.5rem;
     }
 }
